@@ -1,336 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Pixel GitHub README</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<div align="center">
 
-        body {
-            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-            font-family: 'Courier New', monospace;
-            color: #00ff00;
-            overflow-x: hidden;
-        }
+# 🎮 ░▒▓ DEVELOPER ▓▒░ 🎮
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
+### `// Problem Solver & Code Architect //`
 
-        .pixel-title {
-            font-size: 48px;
-            text-align: center;
-            margin-bottom: 30px;
-            text-shadow: 
-                3px 3px 0px #ff00ff,
-                6px 6px 0px #00ffff,
-                9px 9px 0px #ffff00;
-            animation: float 3s ease-in-out infinite;
-            font-weight: bold;
-            letter-spacing: 4px;
-        }
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer;Problem+Solving+Enthusiast;Building+Scalable+Solutions" alt="Typing SVG" />
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotateX(0deg); }
-            50% { transform: translateY(-20px) rotateX(5deg); }
-        }
+</div>
 
-        .subtitle {
-            text-align: center;
-            font-size: 24px;
-            margin-bottom: 50px;
-            color: #00ffff;
-            text-shadow: 2px 2px 0px #ff00ff;
-            animation: pulse 2s ease-in-out infinite;
-        }
+---
 
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
-        }
+## 🎨 **FRONTEND**
 
-        .pixel-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 20px;
-            margin-bottom: 50px;
-        }
+<div align="center">
 
-        .pixel-box {
-            background: rgba(0, 255, 255, 0.1);
-            border: 3px solid #00ffff;
-            padding: 20px;
-            text-align: center;
-            position: relative;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
-        }
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-        .pixel-box::before {
-            content: '';
-            position: absolute;
-            top: -3px;
-            left: -3px;
-            right: -3px;
-            bottom: -3px;
-            background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00);
-            z-index: -1;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
+</div>
 
-        .pixel-box:hover {
-            transform: translateY(-10px) scale(1.05);
-            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.6);
-        }
+---
 
-        .pixel-box:hover::before {
-            opacity: 1;
-            animation: rotate 2s linear infinite;
-        }
+## ⚙️ **BACKEND**
 
-        @keyframes rotate {
-            0% { filter: hue-rotate(0deg); }
-            100% { filter: hue-rotate(360deg); }
-        }
+<div align="center">
 
-        .skill-icon {
-            font-size: 32px;
-            margin-bottom: 10px;
-            display: inline-block;
-            animation: bounce 1s ease-in-out infinite;
-        }
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-5px); }
-        }
+</div>
 
-        .pixel-box:nth-child(1) .skill-icon { animation-delay: 0s; }
-        .pixel-box:nth-child(2) .skill-icon { animation-delay: 0.1s; }
-        .pixel-box:nth-child(3) .skill-icon { animation-delay: 0.2s; }
-        .pixel-box:nth-child(4) .skill-icon { animation-delay: 0.3s; }
-        .pixel-box:nth-child(5) .skill-icon { animation-delay: 0.4s; }
-        .pixel-box:nth-child(6) .skill-icon { animation-delay: 0.5s; }
-        .pixel-box:nth-child(7) .skill-icon { animation-delay: 0.6s; }
-        .pixel-box:nth-child(8) .skill-icon { animation-delay: 0.7s; }
-        .pixel-box:nth-child(9) .skill-icon { animation-delay: 0.8s; }
-        .pixel-box:nth-child(10) .skill-icon { animation-delay: 0.9s; }
-        .pixel-box:nth-child(11) .skill-icon { animation-delay: 1s; }
+---
 
-        .skill-name {
-            font-size: 14px;
-            color: #00ff00;
-            font-weight: bold;
-        }
+## 🧩 **PROBLEM SOLVING**
 
-        .section-title {
-            font-size: 32px;
-            margin: 40px 0 20px;
-            text-align: center;
-            color: #ffff00;
-            text-shadow: 3px 3px 0px #ff00ff;
-            animation: glow 2s ease-in-out infinite;
-        }
+<div align="center">
 
-        @keyframes glow {
-            0%, 100% { text-shadow: 3px 3px 0px #ff00ff, 0 0 20px #ff00ff; }
-            50% { text-shadow: 3px 3px 0px #ff00ff, 0 0 40px #ff00ff, 0 0 60px #ff00ff; }
-        }
+```ascii
+╔════════════════════════════════════════════════════════╗
+║  ▸ Passionate about algorithmic challenges            ║
+║  ▸ Full-stack development with modern tech            ║
+║  ▸ Building scalable and efficient solutions          ║
+║  ▸ Always learning, always coding                     ║
+║  ▸ Turning ideas into reality, one commit at a time   ║
+╚════════════════════════════════════════════════════════╝
+```
 
-        .about-box {
-            background: rgba(255, 0, 255, 0.1);
-            border: 3px solid #ff00ff;
-            padding: 30px;
-            margin: 20px 0;
-            box-shadow: 0 0 30px rgba(255, 0, 255, 0.3);
-            position: relative;
-            overflow: hidden;
-        }
+</div>
 
-        .about-box::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: repeating-linear-gradient(
-                45deg,
-                transparent,
-                transparent 10px,
-                rgba(255, 0, 255, 0.05) 10px,
-                rgba(255, 0, 255, 0.05) 20px
-            );
-            animation: scan 10s linear infinite;
-        }
+---
 
-        @keyframes scan {
-            0% { transform: translate(0, 0); }
-            100% { transform: translate(50%, 50%); }
-        }
+<div align="center">
 
-        .about-box p {
-            position: relative;
-            z-index: 1;
-            line-height: 1.8;
-            font-size: 16px;
-        }
+### 📊 **GitHub Stats**
 
-        .pixel-divider {
-            height: 4px;
-            background: linear-gradient(90deg, #ff00ff, #00ffff, #ffff00, #ff00ff);
-            margin: 30px 0;
-            animation: slide 3s linear infinite;
-            background-size: 200% 100%;
-        }
+<img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=FFFFFF" alt="GitHub Stats" />
 
-        @keyframes slide {
-            0% { background-position: 0% 0%; }
-            100% { background-position: 200% 0%; }
-        }
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF00FF&currStreakLabel=00F7F7" alt="GitHub Streak" />
 
-        .particles {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: -1;
-        }
+</div>
 
-        .particle {
-            position: absolute;
-            width: 4px;
-            height: 4px;
-            background: #00ffff;
-            box-shadow: 0 0 10px #00ffff;
-            animation: particle-float 4s ease-in-out infinite;
-        }
+---
 
-        @keyframes particle-float {
-            0%, 100% { 
-                transform: translateY(0) translateX(0);
-                opacity: 0;
-            }
-            10% { opacity: 1; }
-            90% { opacity: 1; }
-            100% { 
-                transform: translateY(-100vh) translateX(50px);
-                opacity: 0;
-            }
-        }
+<div align="center">
 
-        @media (max-width: 768px) {
-            .pixel-title { font-size: 32px; }
-            .subtitle { font-size: 18px; }
-            .pixel-grid { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
-        }
-    </style>
-</head>
-<body>
-    <div class="particles" id="particles"></div>
-    
-    <div class="container">
-        <h1 class="pixel-title">░▒▓ DEVELOPER ▓▒░</h1>
-        <div class="subtitle">// Problem Solver & Code Architect //</div>
+### 🔥 **Top Languages**
 
-        <div class="pixel-divider"></div>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" alt="Top Languages" />
 
-        <h2 class="section-title">⚡ TECH STACK ⚡</h2>
-        
-        <div class="pixel-grid">
-            <div class="pixel-box">
-                <div class="skill-icon">💻</div>
-                <div class="skill-name">C++</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">☕</div>
-                <div class="skill-name">Java</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">🔷</div>
-                <div class="skill-name">JavaScript</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">⚛️</div>
-                <div class="skill-name">React</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">🌐</div>
-                <div class="skill-name">HTML</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">🎨</div>
-                <div class="skill-name">CSS</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">🗄️</div>
-                <div class="skill-name">MySQL</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">🟢</div>
-                <div class="skill-name">Node.js</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">🍃</div>
-                <div class="skill-name">MongoDB</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">🐍</div>
-                <div class="skill-name">Python</div>
-            </div>
-            <div class="pixel-box">
-                <div class="skill-icon">🎯</div>
-                <div class="skill-name">Figma</div>
-            </div>
-        </div>
+</div>
 
-        <div class="pixel-divider"></div>
+---
 
-        <h2 class="section-title">🧩 PROBLEM SOLVING</h2>
-        
-        <div class="about-box">
-            <p>
-                ▸ Passionate about solving complex algorithmic challenges<br>
-                ▸ Full-stack development with modern technologies<br>
-                ▸ Building scalable and efficient solutions<br>
-                ▸ Always learning, always coding<br>
-                ▸ Turning ideas into reality, one commit at a time
-            </p>
-        </div>
+<div align="center">
 
-        <div class="pixel-divider"></div>
-    </div>
+### 🏆 **GitHub Trophies**
 
-    <script>
-        // Generate floating particles
-        const particlesContainer = document.getElementById('particles');
-        for (let i = 0; i < 20; i++) {
-            const particle = document.createElement('div');
-            particle.className = 'particle';
-            particle.style.left = Math.random() * 100 + '%';
-            particle.style.animationDelay = Math.random() * 4 + 's';
-            particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
-            particlesContainer.appendChild(particle);
-        }
+<img src="https://github-profile-trophy.vercel.app/?username=Abiralsaba&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 
-        // Add interactive hover effects
-        const pixelBoxes = document.querySelectorAll('.pixel-box');
-        pixelBoxes.forEach(box => {
-            box.addEventListener('mouseenter', () => {
-                box.style.borderColor = ['#ff00ff', '#00ffff', '#ffff00'][Math.floor(Math.random() * 3)];
-            });
-        });
-    </script>
-</body>
-</html>
+</div>
+
+---
+
+<div align="center">
+
+### 📫 **Connect With Me**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](YOUR_TWITTER)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF00FF?style=for-the-badge&logo=google-chrome&logoColor=white)](YOUR_PORTFOLIO)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+
+</div>
+
+---
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Abiralsaba&color=00F7F7&style=flat-square&label=PROFILE+VIEWS)
+
+### ⚡ *"Code is poetry written in logic"* ⚡
+
+</div>
