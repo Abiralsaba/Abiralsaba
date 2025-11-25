@@ -5,33 +5,31 @@
 </div>
 <div align="center">
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+I'm+Abiral+Saba!+👋;Problem+Solver+🧩;Full+Stack+Developer+💻;C%2B%2B+|+Java+|+Python+|+Web+Dev&center=true&width=500&height=50&color=38bdae" alt="Typing SVG" />
-</a>
+<div align="center">
 
-<br/>
+<img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical" height="150" alt="stats graph" />
 
-<p>
-  <em>Passionate about Data Structures, Algorithms, and building scalable web applications.</em>
-</p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical" height="150" alt="languages graph" />
 
-<br/>
-
-<h3>🛠 Languages & Tools</h3>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=cpp,java,python,js,html,css,react,nodejs,express,mongodb,mysql,figma&theme=dark" />
-</a>
-
-<br/>
-<br/>
-
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="Abiralsaba's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" alt="Top Languages" />
 </div>
+![Snake animation](https://github.com/your-username/your-username/blob/output/github-contribution-grid-snake.svg
+### 🛠 Tech Stack
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,html,css,react,python,git,github,vscode" />
+  </a>
+</div>
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=radical" alt="GitHub Streak" />
+</div>
+<div align="center">
+  <img src="...typing-svg..." />
+  <br/>
 
-<br/>
+  <img src="...skill-icons..." />
+  <br/>
+  <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
+  <img src="...general-stats..." />
+  <img src="...top-langs..." />
 </div>
