@@ -1,35 +1,45 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Abiral%20Saba&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Turning%20Logic%20into%20Code&descAlignY=55&descAlign=50" width="100%" alt="header" />
+</div>
+
+<div align="center">
+
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,;I+am+a+Full+Stack+Developer;Welcome+to+my+profile!&center=true&width=500&height=50" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Problem+Solver+🧩;Full+Stack+Developer+💻;C%2B%2B+|+Java+|+Python+|+Web+Dev&center=true&width=500&height=50&color=38bdae" alt="Typing SVG" />
 </a>
+
+<br/>
+<br/>
+
+<h3 align="center">🧠 Languages & Problem Solving</h3>
+<img src="https://skillicons.dev/icons?i=cpp,java,python,c&theme=dark" />
+
+<br/>
+
+<h3 align="center">🎨 Frontend Development</h3>
+<img src="https://skillicons.dev/icons?i=html,css,js,react&theme=dark" />
+
+<br/>
+
+<h3 align="center">💾 Backend & Databases</h3>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" />
+
+<br/>
+
+<h3 align="center">🖌 Design Tools</h3>
+<img src="https://skillicons.dev/icons?i=figma&theme=dark" />
+
+<br/>
+<br/>
+<br/>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170" alt="languages" />
 </div>
-<div align="center">
 
-<div align="center">
+<br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical" height="150" alt="stats graph" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=tokyonight&hide_border=true" alt="streak" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical" height="150" alt="languages graph" />
-
-</div>
-![Snake animation](https://github.com/your-username/your-username/blob/output/github-contribution-grid-snake.svg
-### 🛠 Tech Stack
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,python,git,github,vscode" />
-  </a>
-</div>
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=radical" alt="GitHub Streak" />
-</div>
-<div align="center">
-  <img src="...typing-svg..." />
-  <br/>
-
-  <img src="...skill-icons..." />
-  <br/>
-  <br/>
-
-  <img src="...general-stats..." />
-  <img src="...top-langs..." />
 </div>
