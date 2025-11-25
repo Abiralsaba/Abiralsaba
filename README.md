@@ -1,3 +1,13 @@
+
+
+```
+██████╗ ███████╗██╗   ██╗███████╗██╗      ██████╗ ██████╗ ███████╗██████╗ 
+██╔══██╗██╔════╝██║   ██║██╔════╝██║     ██╔═══██╗██╔══██╗██╔════╝██╔══██╗
+██║  ██║█████╗  ██║   ██║█████╗  ██║     ██║   ██║██████╔╝█████╗  ██████╔╝
+██║  ██║██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗
+██████╔╝███████╗ ╚████╔╝ ███████╗███████╗╚██████╔╝██║     ███████╗██║  ██║
+╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝
+```
 <div align="center">
 
 ### `⚡ PROBLEM SOLVER | CODE ARCHITECT | FULL STACK ⚡`
@@ -26,21 +36,36 @@
 
 </div>
 
+## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
+
+   🥇 Science Olympiad Champion (2020)                       
+   🔤IDP English Olympiad Champion (2019)             
+   📐 District Math Olympiad Champion              
+   🎨 Front End Designer: Old Le Reve   
+
 <div align="center">
+          
 
-## <span style="color: #FF6600;">🧩 `PROBLEM SOLVING`</span>
 
-```ascii
-╔═══════════════════════════════════════════════════╗
-║   ▸ Algorithmic Thinking & Data Structures        ║
-║   ▸ Full Stack Web Development                    ║
-║   ▸ Building Scalable Solutions                   ║
-║   ▸ Clean Code Enthusiast                         ║
-║   ▸ Always Learning, Always Growing               ║
-╚═══════════════════════════════════════════════════╝
+<h2 align="center">🐍 <span style="color: #FF6600;">CONTRIBUTION EATER</span></h2>
+<img src="https://github.com/Abiralsaba/Abiralsaba/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 
-<img src="https://www.google.com/search?q=https://github.com/Abiralsaba/Abiralsaba/blob/output/github-contribution-grid-snake.svg" width="100%" alt="snake animation" />
+<br/>
+<br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Abiralsaba&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6" width="90%" />
+## <span style="color: #FF6600;">🌐 `CONNECT`</span>
 
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abir-al-saba-04a1a61b8/)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-FF6600?style=flat-square&logo=google-chrome&logoColor=white)](https://abiralsaba.github.io/Abiralsaba/)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:abiralsabs@gmail.com)
+
+
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Abiralsaba&color=FF6600&style=flat-square&label=PROFILE+VIEWS" /><br>
+
+</div >
+<div align="center">
 ⚡ "CODE > SLEEP" ⚡
+</div>
