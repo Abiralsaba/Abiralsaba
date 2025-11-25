@@ -1,8 +1,9 @@
 name: Generate Snake
 
 on:
+  push:             # <--- This makes it run automatically when you save!
   schedule:
-    - cron: "0 */6 * * *" # Runs every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
