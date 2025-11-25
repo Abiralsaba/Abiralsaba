@@ -1,91 +1,104 @@
-<!-- 3D Animated Pixel Banner -->
-<p align="center">
-  <img src="https://i.ibb.co/8Dykz6g/3d-pixel-banner.gif" width="800">
-</p>
+<div align="center">
 
-<h1 align="center">🟪🟩🟦 Abiralsaba — 3D Pixel Developer ⚡ Problem Solver ⚡ Full-Stack Wizard</h1>
+```
+██████╗ ███████╗██╗   ██╗███████╗██╗      ██████╗ ██████╗ ███████╗██████╗ 
+██╔══██╗██╔════╝██║   ██║██╔════╝██║     ██╔═══██╗██╔══██╗██╔════╝██╔══██╗
+██║  ██║█████╗  ██║   ██║█████╗  ██║     ██║   ██║██████╔╝█████╗  ██████╔╝
+██║  ██║██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗
+██████╔╝███████╗ ╚████╔╝ ███████╗███████╗╚██████╔╝██║     ███████╗██║  ██║
+╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝
+```
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Pixelify+Sans&size=28&duration=3500&color=00F7FF&center=true&vCenter=true&width=900&lines=Crafting+3D+Pixel+Experiences+✨;Full+Stack+Developer+%7C+C%2B%2B+%7C+Java+%7C+JS+⚡;React+%7C+Node.js+%7C+MongoDB+%7C+MySQL+🚀;Problem+Solver+%7C+Code+Artist+🎨;Turning+Ideas+Into+Animated+Reality+💡">
-</p>
+### `⚡ PROBLEM SOLVER | CODE ARCHITECT | FULL STACK ⚡`
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6600&center=true&vCenter=true&width=435&lines=Building+Pixel+Perfect+Solutions;Always+Coding%2C+Always+Learning;Let's+Create+Something+Cool!" alt="Typing SVG" />
 
-# 🎮 **3D Pixel Name (Animated)**  
-<p align="center">
-  <img src="https://i.ibb.co/pPXrPY8/pixel-name-anim.gif" width="600">
-</p>
+```
+═══════════════════════════════════════════════════════════════
+```
 
----
+</div>
 
-# 💻 **Tech Stack (Pixel Style)**
+## 🎨 `FRONTEND`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,js,react,html,css,nodejs,mysql,mongodb,python,figma&perline=6" />
-</p>
+<div align="center">
 
----
+| <img width="40" src="https://cdn.simpleicons.org/javascript/F7DF1E"/> | <img width="40" src="https://cdn.simpleicons.org/react/61DAFB"/> | <img width="40" src="https://cdn.simpleicons.org/html5/E34F26"/> | <img width="40" src="https://cdn.simpleicons.org/css3/1572B6"/> | <img width="40" src="https://cdn.simpleicons.org/figma/F24E1E"/> |
+|:---:|:---:|:---:|:---:|:---:|
+| **JavaScript** | **React** | **HTML5** | **CSS3** | **Figma** |
 
-# 🧠 **Problem Solving**
+</div>
 
-🔥 I solve problems using multiple languages  
-Clean code • Fast logic • Real-time thinking
+```
+───────────────────────────────────────────────────────────────
+```
 
----
+## ⚙️ `BACKEND`
 
-# ⚡ **GitHub Stats (Animated)**
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=radical&count_private=true&include_all_commits=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=radical" height="170" />
-</p>
+| <img width="40" src="https://cdn.simpleicons.org/nodedotjs/339933"/> | <img width="40" src="https://cdn.simpleicons.org/python/3776AB"/> | <img width="40" src="https://cdn.simpleicons.org/openjdk/ED8B00"/> | <img width="40" src="https://cdn.simpleicons.org/cplusplus/00599C"/> | <img width="40" src="https://cdn.simpleicons.org/mysql/4479A1"/> | <img width="40" src="https://cdn.simpleicons.org/mongodb/47A248"/> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Node.js** | **Python** | **Java** | **C++** | **MySQL** | **MongoDB** |
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=radical" height="200" />
-</p>
+</div>
 
----
+```
+═══════════════════════════════════════════════════════════════
+```
 
-# 🌌 **Cyber 3D Pixel Divider**
-<p align="center">
-  <img src="https://i.ibb.co/PwqzvXn/cyber-divider.gif" width="700">
-</p>
+<div align="center">
 
----
+## 🧩 `PROBLEM SOLVING`
 
-# 🚀 **3D Projects Section (Holographic Style)**
+```ascii
+╔═══════════════════════════════════════════════════╗
+║  ▸ Algorithmic Thinking & Data Structures        ║
+║  ▸ Full Stack Web Development                    ║
+║  ▸ Building Scalable Solutions                   ║
+║  ▸ Clean Code Enthusiast                         ║
+║  ▸ Always Learning, Always Growing               ║
+╚═══════════════════════════════════════════════════╝
+```
 
-### 🟦 Hologram UI  
-3D UI experiments using CSS + WebGL + Pixel Art
+```
+───────────────────────────────────────────────────────────────
+```
 
-### 🟩 Real-Time Sorting Algorithm (ARTSS)  
-Ultra-optimized hybrid algorithm (C++)
+## 📊 `GITHUB STATS`
 
-### 🟥 3D Pixel Generator  
-Your name turns into rotating Pixel Cubes
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=dark&hide_border=true&bg_color=1a1b27&title_color=FF6600&icon_color=FF6600&text_color=FFFFFF" />
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=dark&hide_border=true&background=1a1b27&stroke=FF6600&ring=FF6600&fire=FF6600&currStreakLabel=FF6600" />
 
----
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=dark&hide_border=true&bg_color=1a1b27&title_color=FF6600&text_color=FFFFFF" />
 
-# 🧩 **Fun Animated Badges**
-<p align="center">
-  <img src="https://img.shields.io/badge/3D%20Pixel%20Master-00f?style=for-the-badge&logo=starship&logoColor=white">
-  <img src="https://img.shields.io/badge/Problem%20Solver-FF0077?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Full%20Stack%20Developer-05ffa1?style=for-the-badge">
-</p>
+```
+───────────────────────────────────────────────────────────────
+```
 
----
+## 🏆 `GITHUB TROPHIES`
 
-# 📬 **Contact**
-📌 GitHub: **[@Abiralsaba](https://github.com/Abiralsaba)**  
-📧 Email: *add yours here*  
-🌐 Portfolio (Coming soon…)
+<img src="https://github-profile-trophy.vercel.app/?username=Abiralsaba&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6" width="90%" />
 
----
+```
+═══════════════════════════════════════════════════════════════
+```
 
-<p align="center">
-  <img src="https://i.ibb.co/3dXs4fP/epic-end.gif" width="500">
-</p>
+## 🌐 `CONNECT`
 
-<h2 align="center">⭐ Drop a star if you like my cosmic README!</h2>
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](YOUR_LINKEDIN)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](YOUR_TWITTER)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-FF6600?style=flat-square&logo=google-chrome&logoColor=white)](YOUR_PORTFOLIO)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
 
+```
+───────────────────────────────────────────────────────────────
+```
 
+![](https://komarev.com/ghpvc/?username=Abiralsaba&color=FF6600&style=flat-square)
+
+```
+⚡ "CODE > SLEEP" ⚡
+```
+
+</div>
