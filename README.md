@@ -65,14 +65,7 @@
 ───────────────────────────────────────────────────────────────
 ```
 
-## 📊 `GITHUB STATS`
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=dark&hide_border=true&bg_color=1a1b27&title_color=FF6600&icon_color=FF6600&text_color=FFFFFF" />
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=dark&hide_border=true&background=1a1b27&stroke=FF6600&ring=FF6600&fire=FF6600&currStreakLabel=FF6600" />
-
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=dark&hide_border=true&bg_color=1a1b27&title_color=FF6600&text_color=FFFFFF" />
-
-```
 ───────────────────────────────────────────────────────────────
 ```
 
