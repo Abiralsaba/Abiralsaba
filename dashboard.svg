@@ -1,98 +1,66 @@
-<svg fill="none" viewBox="0 0 800 600" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
-        
-        .container {
-          font-family: 'Courier New', monospace;
-          background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-          color: #00ff00;
-          width: 100%;
-          height: 600px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          padding-top: 40px;
-          box-sizing: border-box;
-        }
-        
-        h1 {
-          font-family: 'Press Start 2P', cursive;
-          font-size: 35px;
-          text-shadow: 3px 3px 0px #ff00ff, 6px 6px 0px #00ffff;
-          margin-bottom: 10px;
-          color: #ffffff;
-          animation: float 3s ease-in-out infinite;
-        }
+<div align="center">
 
-        .subtitle {
-          color: #00ffff;
-          font-size: 18px;
-          margin-bottom: 40px;
-          text-shadow: 2px 2px 0px #ff00ff;
-        }
+<img src="https://capsule-render.vercel.app/api?type=waving&color=d35400&height=280&section=header&text=Abiral%20Saba&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Code%20Architect%20%7C%20Full%20Stack&descAlignY=60&descAlign=50" width="100%" alt="header" />
 
-        .grid {
-          display: flex;
-          gap: 15px;
-          flex-wrap: wrap;
-          justify-content: center;
-          max-width: 700px;
-        }
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Building+Pixel+Perfect+Solutions+💎;Always+Coding,+Always+Learning+🚀;C%2B%2B+|+Java+|+React+|+Node;Let's+Create+Something+Cool!&font=Fira+Code&center=true&width=500&height=50&color=ff6600&vCenter=true&size=22&pause=1000" alt="Typing SVG" />
+</a>
 
-        .box {
-          background: rgba(0, 255, 255, 0.1);
-          border: 2px solid #00ffff;
-          padding: 15px;
-          width: 90px;
-          text-align: center;
-          box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
-          border-radius: 8px;
-        }
+<br/>
 
-        .text-box {
-          margin-top: 30px;
-          background: rgba(255, 0, 255, 0.1);
-          border: 2px solid #ff00ff;
-          padding: 20px;
-          max-width: 600px;
-          line-height: 1.6;
-          box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
-          border-radius: 8px;
-          color: #fff;
-        }
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-        @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-10px); }
-        }
-      </style>
+<br/>
 
-      <div class="container">
-        <h1>ABIRAL SABA</h1>
-        <div class="subtitle">// Code Architect & Problem Solver //</div>
+<h2 align="center">⚡ <span style="color: #FF6600;">THE ARSENAL</span> ⚡</h2>
 
-        <div class="grid">
-          <div class="box">C++</div>
-          <div class="box">Java</div>
-          <div class="box">JS</div>
-          <div class="box">React</div>
-          <div class="box">HTML</div>
-          <div class="box">CSS</div>
-          <div class="box">MySQL</div>
-          <div class="box">Node</div>
-          <div class="box">Mongo</div>
-          <div class="box">Python</div>
-          <div class="box">Figma</div>
-        </div>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,react,html,css,figma&theme=dark" />
+</div>
+<br/>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,python,java,cpp,mysql,mongodb,express&theme=dark" />
+</div>
 
-        <div class="text-box">
-          ▸ Passionate about Algorithmic Challenges<br/>
-          ▸ Full-Stack Development<br/>
-          ▸ Building Scalable Solutions
-        </div>
-      </div>
-    </div>
-  </foreignObject>
-</svg>
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
+
+<h2 align="center">📊 <span style="color: #FF6600;">PERFORMANCE METRICS</span></h2>
+
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=FF6600&icon_color=FF6600&text_color=c9d1d9" height="170" alt="stats" />
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=dark&hide_border=true&background=0d1117&stroke=FF6600&ring=FF6600&fire=FF6600&currStreakLabel=FF6600" height="170" alt="streak" />
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=FF6600&text_color=c9d1d9" alt="languages" />
+</div>
+
+<br/>
+
+<h2 align="center">🐍 <span style="color: #FF6600;">CONTRIBUTION EATER</span></h2>
+<img src="https://github.com/Abiralsaba/Abiralsaba/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+
+<br/>
+<br/>
+
+<div align="center">
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:YOUR_EMAIL">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</div>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Abiralsaba&color=FF6600&style=flat-square&label=PROFILE+VIEWS" />
+
+</div>
