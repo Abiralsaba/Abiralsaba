@@ -1,111 +1,97 @@
 <div align="center">
 
-# 🎮 ░▒▓ DEVELOPER ▓▒░ 🎮
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJtZTVuZmN3ZzJtZmdkb3V5ZzJtZmdkb3V5ZzJtZmdkb3V5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LcH5F28z7aH5u/giphy.gif" width="100%" height="200" style="object-fit: cover;" alt="pixel banner">
 
-### `// Problem Solver & Code Architect //`
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer;Problem+Solving+Enthusiast;Building+Scalable+Solutions" alt="Typing SVG" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=░▒▓+DEVELOPER+▓▒░;%2F%2F+Problem+Solver+%26+Code+Architect+%2F%2F&font=Press+Start+2P&center=true&width=600&height=100&color=00ffff&vCenter=true&size=25&background=00000000" alt="Pixel Header" />
+</a>
 
-</div>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
----
+<br/>
 
-## 🎨 **FRONTEND**
+<h2 align="center">⚡ <span style="color: #ffff00; font-family: monospace;">TECH STACK</span> ⚡</h2>
 
-<div align="center">
+<table align="center" style="border: none;">
+  <tr>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="50" /><br/>
+      <code>C++</code>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=java&theme=dark" width="50" /><br/>
+      <code>Java</code>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=js&theme=dark" width="50" /><br/>
+      <code>JS</code>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=react&theme=dark" width="50" /><br/>
+      <code>React</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=html&theme=dark" width="50" /><br/>
+      <code>HTML</code>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=css&theme=dark" width="50" /><br/>
+      <code>CSS</code>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="50" /><br/>
+      <code>MySQL</code>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="50" /><br/>
+      <code>Node.js</code>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="50" /><br/>
+      <code>MongoDB</code>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=python&theme=dark" width="50" /><br/>
+      <code>Python</code>
+    </td>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=figma&theme=dark" width="50" /><br/>
+      <code>Figma</code>
+    </td>
+    <td align="center" width="100">
+      <code>...</code>
+    </td>
+  </tr>
+</table>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+<br/>
 
-</div>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
----
+<br/>
 
-## ⚙️ **BACKEND**
-
-<div align="center">
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-</div>
-
----
-
-## 🧩 **PROBLEM SOLVING**
-
-<div align="center">
-
-```ascii
-╔════════════════════════════════════════════════════════╗
-║  ▸ Passionate about algorithmic challenges            ║
-║  ▸ Full-stack development with modern tech            ║
-║  ▸ Building scalable and efficient solutions          ║
-║  ▸ Always learning, always coding                     ║
-║  ▸ Turning ideas into reality, one commit at a time   ║
-╚════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-<div align="center">
-
-### 📊 **GitHub Stats**
-
-<img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=FFFFFF" alt="GitHub Stats" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF00FF&currStreakLabel=00F7F7" alt="GitHub Streak" />
-
-</div>
-
----
-
-<div align="center">
-
-### 🔥 **Top Languages**
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" alt="Top Languages" />
-
-</div>
-
----
-
-<div align="center">
-
-### 🏆 **GitHub Trophies**
-
-<img src="https://github-profile-trophy.vercel.app/?username=Abiralsaba&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-
-</div>
-
----
+<h2 align="center">🧩 <span style="color: #ffff00; font-family: monospace;">ABOUT ME</span></h2>
 
 <div align="center">
-
-### 📫 **Connect With Me**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](YOUR_TWITTER)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF00FF?style=for-the-badge&logo=google-chrome&logoColor=white)](YOUR_PORTFOLIO)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-
+<blockquote>
+  <p align="left" style="font-family: monospace;">
+    ▸ Passionate about solving complex algorithmic challenges<br>
+    ▸ Full-stack development with modern technologies<br>
+    ▸ Building scalable and efficient solutions<br>
+    ▸ Always learning, always coding<br>
+    ▸ Turning ideas into reality, one commit at a time
+  </p>
+</blockquote>
 </div>
 
----
+<br/>
 
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Abiralsaba&color=00F7F7&style=flat-square&label=PROFILE+VIEWS)
-
-### ⚡ *"Code is poetry written in logic"* ⚡
+<img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="stats" />
 
 </div>
