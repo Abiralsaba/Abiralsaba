@@ -33,13 +33,11 @@
 <br/>
 <br/>
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abiralsaba&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170" alt="languages" />
-</div>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Abiralsaba&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="Abiralsaba's Stats" />
+  
+  <br/>
+  <br/>
 
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=tokyonight&hide_border=true" alt="streak" />
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abiralsaba&theme=tokyonight&hide_border=true" alt="streak" />
 </div>
