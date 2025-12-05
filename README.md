@@ -41,7 +41,7 @@
 
 <div align="center">
 
-| <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" style="filter: invert(46%) sepia(97%) saturate(1399%) hue-rotate(360deg) brightness(101%) contrast(106%);"/> | <img width="45" src="https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/_static/jazzy-small.png" /> | <img width="45" src="https://cdn.simpleicons.org/cplusplus/00599C"/> | <img width="45" src="https://cdn.simpleicons.org/python/3776AB"/> |
+| <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" style="filter: invert(46%) sepia(97%) saturate(1399%) hue-rotate(360deg) brightness(101%) contrast(106%);"/> | <img width="45" src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fdrw2wpwg272d1.png" /> | <img width="45" src="https://cdn.simpleicons.org/cplusplus/00599C"/> | <img width="45" src="https://cdn.simpleicons.org/python/3776AB"/> |
 |:---:|:---:|:---:|:---:|
 | <span style="color: #FF6600;">**ROS 2**</span> | <span style="color: #FF6600;">**Jazzy Jalisco**</span> | <span style="color: #FF6600;">**C++ (Nodes)**</span> | <span style="color: #FF6600;">**Python (Nodes)**</span> |
 
