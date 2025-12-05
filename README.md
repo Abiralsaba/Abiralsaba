@@ -41,9 +41,9 @@
 
 <div align="center">
 
-| <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" style="filter: invert(46%) sepia(97%) saturate(1399%) hue-rotate(360deg) brightness(101%) contrast(106%);"/> | <img width="45" src="https://cdn.prod.website-files.com/660efb77a041930767e2971a/664e3a305979cab1309722b1_Welcoming%20Jazzy%20Jalisco%20Full%20Width%20Image.png" /> | <img width="45" src="https://cdn.simpleicons.org/cplusplus/00599C"/> | <img width="45" src="https://cdn.simpleicons.org/python/3776AB"/> |
+| <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" style="filter: invert(46%) sepia(97%) saturate(1399%) hue-rotate(360deg) brightness(101%) contrast(106%);"/> | <img width="45" src="https://cdn.prod.website-files.com/660efb77a041930767e2971a/664e3a305979cab1309722b1_Welcoming%20Jazzy%20Jalisco%20Full%20Width%20Image.png" /> |  <img width="45" src="https://cdn.simpleicons.org/python/3776AB"/> |
 |:---:|:---:|:---:|:---:|
-| <span style="color: #FF6600;">**ROS 2**</span> | <span style="color: #FF6600;">**Jazzy Jalisco**</span> | <span style="color: #FF6600;">**C++ (Nodes)**</span> | <span style="color: #FF6600;">**Python (Nodes)**</span> |
+| <span style="color: #FF6600;">**ROS 2**</span> | <span style="color: #FF6600;">**Jazzy Jalisco**</span> | <span style="color: #FF6600;">**Python (Nodes)**</span> |
 
 </div>
 
