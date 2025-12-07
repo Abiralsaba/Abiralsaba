@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abir Al Saba | Terminal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=VT323&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        hack: {
+                            black: '#050505',
+                            dark: '#0a0a0a',
+                            green: '#00ff41',
+                            dim: '#008F11',
+                            gray: '#1a1a1a'
+                        }
+                    },
+                    fontFamily: {
+                        mono: ['"Fira Code"', 'monospace'],
+                        retro: ['"VT323"', 'monospace'],
+                    },
+                    animation: {
+                        'blink': 'blink 1s step-end infinite',
+                        'glitch': 'glitch 1s linear infinite',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-hack-black text-hack-green font-mono selection:bg-hack-green selection:text-black overflow-x-hidden">
+
+    <audio id="bg-music" loop>
+        <source src="audio/bg-music.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="hover-sound">
+        <source src="audio/hover.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="click-sound">
+        <source src="audio/click.mp3" type="audio/mpeg">
+    </audio>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <div class="crt-overlay"></div>
+
+    <nav class="fixed w-full z-50 border-b border-hack-dim bg-hack-black/90 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#"
+                class="text-2xl font-retro tracking-widest hover:text-white transition-colors interactive-element">
+                > root@abir:~$ <span class="animate-blink">_</span>
+            </a>
+
+            <div class="hidden md:flex items-center space-x-6 text-sm">
+                <a href="#home" class="nav-item interactive-element">[ /home ]</a>
+                <a href="#projects" class="nav-item interactive-element">[ /projects ]</a>
+                <a href="#achievements" class="nav-item interactive-element">[ /achievements ]</a>
+                <a href="#skills" class="nav-item interactive-element">[ /skills ]</a>
+                <a href="#contact" class="nav-item interactive-element">[ /contact ]</a>
+
+                <button id="sound-toggle" class="terminal-btn-sm interactive-element flex items-center gap-2">
+                    <i class="fas fa-volume-mute"></i> <span>AUDIO: ON</span>
+                </button>
+
+                <a href="https://www.fiverr.com/share/m70YPN" target="_blank" class="glitch-btn interactive-element"
+                    data-text="EXECUTE_HIRE">EXECUTE_HIRE</a>
+            </div>
+
+            <button id="menu-btn" class="md:hidden text-2xl text-hack-green interactive-element">
+                <i class="fas fa-terminal"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-hack-black border-b border-hack-green absolute w-full left-0 top-full">
+            <div class="flex flex-col p-6 space-y-4 font-retro text-xl">
+                <a href="#home" class="mobile-link interactive-element">> cd /home</a>
+                <a href="#projects" class="mobile-link interactive-element">> cd /projects</a>
+                <a href="#achievements" class="mobile-link interactive-element">> cd /achievements</a>
+                <a href="#skills" class="mobile-link interactive-element">> cd /skills</a>
+                <a href="#contact" class="mobile-link interactive-element">> cd /contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 relative">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1 z-10">
+                <p class="text-hack-dim font-bold mb-2 font-retro text-xl">Initializing connection...</p>
+                <h1 class="text-5xl md:text-7xl font-retro font-bold text-white mb-4 leading-none glitch-text"
+                    data-text="ABIR AL SABA">
+                    ABIR AL SABA
+                </h1>
+                <div class="text-xl md:text-2xl text-hack-green mb-8 h-8 flex items-center">
+                    <span class="mr-2">></span>
+                    <span class="type-effect"></span><span class="animate-blink">█</span>
+                </div>
+
+                <div
+                    class="bg-hack-gray/50 p-4 border-l-2 border-hack-green mb-8 font-mono text-sm text-gray-300 shadow-lg">
+                    <span class="text-hack-green">const</span> <span class="text-blue-400">mission</span> = {<br>
+                    &nbsp;&nbsp;role: <span class="text-yellow-300">"Full Stack Architect","Robotics and
+                        Autonomous"</span>,<br>
+                    &nbsp;&nbsp;focus: <span class="text-yellow-300">"Pixel Perfect Solutions"</span>,<br>
+                    &nbsp;&nbsp;stack: [<span class="text-yellow-300">"React"</span>, <span
+                        class="text-yellow-300">"Node"</span>, <span class="text-yellow-300">"Python"</span>,<span
+                        class="text-yellow-300">"ROS 2"</span>]<br>
+                    };
+                </div>
+
+                <div class="flex gap-4">
+                    <a href="#contact" class="terminal-btn btn-3d interactive-element">./contact_me.sh</a>
+                    <a href="https://github.com/Abiralsaba" target="_blank"
+                        class="terminal-btn-outline btn-3d interactive-element">
+                        <i class="fab fa-github mr-2"></i> git checkout
+                    </a>
+                </div>
+            </div>
+
+            <div class="order-1 md:order-2 flex justify-center z-10 relative">
+                <div class="relative w-72 h-72 md:w-96 md:h-96 border-2 border-hack-green p-2 card-3d-wrapper">
+                    <div class="absolute -top-3 -left-3 text-xs bg-hack-black px-2 text-hack-green">IMG_SOURCE_01</div>
+                    <div class="w-full h-full overflow-hidden bg-hack-dark relative">
+                        <img src="images/bgg.gif" alt="Profile"
+                            class="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-500">
+                        <div class="scan-line"></div>
+                    </div>
+                    <div class="absolute -top-1 -left-1 w-3 h-3 border-t-2 border-l-2 border-hack-green"></div>
+                    <div class="absolute -top-1 -right-1 w-3 h-3 border-t-2 border-r-2 border-hack-green"></div>
+                    <div class="absolute -bottom-1 -left-1 w-3 h-3 border-b-2 border-l-2 border-hack-green"></div>
+                    <div class="absolute -bottom-1 -right-1 w-3 h-3 border-b-2 border-r-2 border-hack-green"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 border-t border-hack-gray bg-hack-black/80">
+        <div class="container mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">01.</span> /projects</h2>
+                <div class="h-px w-24 bg-hack-green"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 perspective-container">
+                <div class="terminal-card group interactive-element card-3d">
+                    <div class="terminal-header">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        </div>
+                        <div class="text-xs text-gray-500">ecommerce.exe</div>
+                    </div>
+                    <div class="relative h-48 overflow-hidden border-b border-hack-green">
+                        <img src="images/45.gif" alt="Project"
+                            class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">E-Commerce Platform</h3>
+                        <p class="text-hack-dim text-sm mb-4 font-mono">Full-stack MERN application with secure payment
+                            gateways.</p>
+                        <div class="flex gap-2 text-xs font-mono">
+                            <span class="text-hack-green">[React]</span>
+                            <span class="text-hack-green">[Node]</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="terminal-card group interactive-element card-3d">
+                    <div class="terminal-header">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        </div>
+                        <div class="text-xs text-gray-500">robot_arm.py</div>
+                    </div>
+                    <div class="relative h-48 overflow-hidden border-b border-hack-green">
+                        <img src="images/1647442362995.jpg" alt="Project"
+                            class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Autonomous Robot Arm</h3>
+                        <p class="text-hack-dim text-sm mb-4 font-mono">6-DOF robotic arm controlled via ROS 2 nodes.
+                        </p>
+                        <div class="flex gap-2 text-xs font-mono">
+                            <span class="text-hack-green">[Python]</span>
+                            <span class="text-hack-green">[ROS2]</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="terminal-card group interactive-element card-3d">
+                    <div class="terminal-header">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        </div>
+                        <div class="text-xs text-gray-500">portfolio.html</div>
+                    </div>
+                    <div class="relative h-48 overflow-hidden border-b border-hack-green">
+                        <img src="images/gg.gif" alt="Project"
+                            class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Terminal Portfolio</h3>
+                        <p class="text-hack-dim text-sm mb-4 font-mono">Interactive hacker-themed portfolio with matrix
+                            effects.</p>
+                        <div class="flex gap-2 text-xs font-mono">
+                            <span class="text-hack-green">[HTML5]</span>
+                            <span class="text-hack-green">[Canvas]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="py-24 border-t border-hack-gray">
+        <div class="container mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">02.</span> /achievements
+                </h2>
+                <div class="h-px w-24 bg-hack-green"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div
+                    class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
+                    <div class="text-gray-500 mb-2">// 2020-LOG</div>
+                    <div class="text-white text-lg font-bold mb-1">> Science Olympiad Champion</div>
+                    <div class="text-hack-green">Status: <span class="text-white">Awarded 1st Place (Regional)</span>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
+                    <div class="text-gray-500 mb-2">// 2019-LOG</div>
+                    <div class="text-white text-lg font-bold mb-1">> IDP English Olympiad</div>
+                    <div class="text-hack-green">Status: <span class="text-white">Champion</span></div>
+                </div>
+
+                <div
+                    class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
+                    <div class="text-gray-500 mb-2">// DISTRICT-LOG</div>
+                    <div class="text-white text-lg font-bold mb-1">> Math Olympiad</div>
+                    <div class="text-hack-green">Status: <span class="text-white">Top Position Secured</span></div>
+                </div>
+
+                <div
+                    class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
+                    <div class="text-gray-500 mb-2">// WORK-LOG</div>
+                    <div class="text-white text-lg font-bold mb-1">> Front End Designer</div>
+                    <div class="text-hack-green">Org: <span class="text-white">Old Le Reve</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 border-t border-hack-gray bg-hack-black/80">
+        <div class="container mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">03.</span> /skills</h2>
+                <div class="h-px w-24 bg-hack-green"></div>
+            </div>
+
+            <div class="border border-hack-green p-4 bg-hack-black font-mono text-sm interactive-element card-3d">
+                <div class="flex items-center gap-2 border-b border-hack-gray pb-2 mb-4">
+                    <div class="w-3 h-3 rounded-full bg-hack-green animate-pulse"></div>
+                    <span>system_capabilities.json</span>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="text-white mb-4">"frontend": [</div>
+                        <ul class="pl-8 space-y-2 text-hack-green">
+                            <li>"React.js",</li>
+                            <li>"Tailwind CSS",</li>
+                            <li>"JavaScript (ES6+)",</li>
+                            <li>"HTML5 / Canvas"</li>
+                            <li>UI/UX/FIGMA</li>
+                        </ul>
+                        <div class="text-white mt-4">],</div>
+                    </div>
+                    <div>
+                        <div class="text-white mb-4">"backend": [</div>
+                        <ul class="pl-8 space-y-2 text-hack-green">
+                            <li>"Node.js",</li>
+                            <li>"Python",</li>
+                            <li>"MongoDB",</li>
+                            <li>"My Sql"</li>
+                            <li>"DBMS"</li>
+
+                        </ul>
+                        <div class="text-white mt-4">]</div>
+                    </div>
+
+                    <div>
+                        <div class="text-white mb-4">"ROBOTICS AND AUTONOMOUS": [</div>
+                        <ul class="pl-8 space-y-2 text-hack-green">
+                            <li>"ROBOT OPERATING SYSTEM 2",</li>
+                            <li>"UBUNTU",</li>
+                            <li>"ROBOFLOW",</li>
+                            <li>Still progressing......</li>
+                        </ul>
+                        <div class="text-white mt-4">]</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 border-t border-hack-gray">
+        <div class="container mx-auto px-6 max-w-2xl text-center">
+            <div class="border-2 border-hack-green p-8 md:p-12 relative bg-hack-dark card-3d">
+                <div
+                    class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-hack-black px-4 text-hack-green font-mono">
+                    MESSAGE_TRANSMISSION
+                </div>
+
+                <h2 class="text-3xl font-retro text-white mb-6">Initialize Communication?</h2>
+                <p class="text-gray-400 mb-8 font-mono text-sm">
+                    I am currently available for freelance missions and full-time deployment.
+                    Execute the command below to connect.
+                </p>
+
+                <a href="mailto:abiralsabs@gmail.com"
+                    class="terminal-btn btn-3d interactive-element inline-block text-lg px-12 py-4">
+                    > send_email --priority=high
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-hack-dim font-mono text-xs border-t border-hack-gray">
+        <p>System Online since <span id="year">2019</span> | Designed by Abir Al Saba</p>
+        <p class="mt-2 text-hack-green">Code > Sleep</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+/* Matrix / Terminal Styling */
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ff41;
+    /* Matrix Green */
+    border: 1px solid #000;
+}
+
+/* CRT Scanline Effect */
+.crt-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%,
+            rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg,
+            rgba(255, 0, 0, 0.06),
+            rgba(0, 255, 0, 0.02),
+            rgba(0, 0, 255, 0.06));
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* Canvas Styling */
+#matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.15;
+    /* Subtle background */
+}
+
+/* Typography Utilities */
+.glitch-text {
+    position: relative;
+    text-shadow: 2px 2px 0px #ff0000, -2px -2px 0px #00ff00;
+    animation: glitch-skew 1s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-skew {
+    0% {
+        transform: skew(0deg);
+    }
+
+    10% {
+        transform: skew(-2deg);
+    }
+
+    20% {
+        transform: skew(2deg);
+    }
+
+    100% {
+        transform: skew(0deg);
+    }
+}
+
+/* Navigation Links */
+.nav-item {
+    color: #888;
+    transition: all 0.2s;
+}
+
+.nav-item:hover {
+    color: #00ff41;
+    text-shadow: 0 0 8px #00ff41;
+}
+
+/* 3D Button Styles */
+.terminal-btn {
+    background-color: #00ff41;
+    color: black;
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #00ff41;
+    transition: all 0.1s;
+    position: relative;
+}
+
+.terminal-btn-sm {
+    background-color: transparent;
+    color: #00ff41;
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #00ff41;
+    transition: all 0.2s;
+    font-size: 0.75rem;
+}
+
+.terminal-btn-sm:hover {
+    background-color: rgba(0, 255, 65, 0.1);
+}
+
+.terminal-btn-outline {
+    background-color: transparent;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid white;
+    transition: all 0.1s;
+    position: relative;
+}
+
+.terminal-btn-outline:hover {
+    border-color: #00ff41;
+    color: #00ff41;
+}
+
+/* 3D Press Effect */
+.btn-3d {
+    box-shadow: 4px 4px 0px 0px #008F11;
+    /* Hard retro shadow */
+    transform: translate(-2px, -2px);
+}
+
+.btn-3d:active {
+    box-shadow: 0px 0px 0px 0px #008F11;
+    transform: translate(2px, 2px);
+}
+
+/* 3D Card Container */
+.perspective-container {
+    perspective: 1000px;
+}
+
+/* 3D Card Styles */
+.terminal-card {
+    background-color: #0a0a0a;
+    border: 1px solid #333;
+    transition: transform 0.1s ease-out, box-shadow 0.2s ease;
+    transform-style: preserve-3d;
+}
+
+.card-3d {
+    /* Styles needed for the JS tilt logic to work smoothly */
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+/* Glow on hover */
+.terminal-card:hover {
+    border-color: #00ff41;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+}
+
+.terminal-header {
+    background-color: #1a1a1a;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+/* Image Scanline */
+.scan-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: rgba(0, 255, 65, 0.3);
+    opacity: 0.5;
+    animation: scan 3s linear infinite;
+    box-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+}
+
+@keyframes scan {
+    0% {
+        top: -10%;
+    }
+
+    100% {
+        top: 110%;
+    }
+}
