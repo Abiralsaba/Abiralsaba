@@ -57,8 +57,7 @@
 <div align="center">
           <div align="center">
              
-
-## <span style="color: #FF6600;">⚙️ `Projects and Portfolio`</span>
+## <span style="color: #FF6600;">🏆 `Projects and Portfolio`</span>
   <br><br>
   <a href="https://abiralsaba.github.io/Abiralsaba/">
     <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-FF6600?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio" />
