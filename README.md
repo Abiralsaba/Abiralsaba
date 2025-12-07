@@ -54,8 +54,6 @@
    📐 District Math Olympiad Champion              
    🎨 Front End Designer: Old Le Reve   
 
-<div align="center">
-          <div align="center">
              
 ## <span style="color: #FF6600;">🏆 `Projects and Portfolio`</span>
   <br><br>
