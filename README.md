@@ -1,10 +1,13 @@
-██████╗ ███████╗██╗   ██╗███████╗██╗      ██████╗ ██████╗ ███████╗██████╗ 
-██╔══██╗██╔════╝██║   ██║██╔════╝██║      ██╔═══██╗██╔══██╗██╔════╝██╔══██╗
-██║   ██║█████╗  ██║   ██║█████╗  ██║      ██║   ██║██████╔╝█████╗  ██████╔╝
-██║   ██║██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║      ██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗
-██████╔╝███████╗ ╚████╔╝ ███████╗███████╗╚██████╔╝██║      ███████╗██║  ██║
-╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝      ╚══════╝╚═╝  ╚═╝
 
+
+```
+██████╗ ███████╗██╗   ██╗███████╗██╗      ██████╗ ██████╗ ███████╗██████╗ 
+██╔══██╗██╔════╝██║   ██║██╔════╝██║     ██╔═══██╗██╔══██╗██╔════╝██╔══██╗
+██║  ██║█████╗  ██║   ██║█████╗  ██║     ██║   ██║██████╔╝█████╗  ██████╔╝
+██║  ██║██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗
+██████╔╝███████╗ ╚████╔╝ ███████╗███████╗╚██████╔╝██║     ███████╗██║  ██║
+╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝
+```
 <div align="center">
 
 ### `⚡ PROBLEM SOLVER | CODE ARCHITECT | FULL STACK ⚡`
@@ -32,7 +35,7 @@
 | <span style="color: #FF6600;">**Node.js**</span> | <span style="color: #FF6600;">**Python**</span> | <span style="color: #FF6600;">**Java**</span> | <span style="color: #FF6600;">**C++**</span> | <span style="color: #FF6600;">**MySQL**</span> | <span style="color: #FF6600;">**MongoDB**</span> |
 
 </div>
-
+</div>
 
 ## <span style="color: #FF6600;">🤖 `ROBOTICS & AUTONOMOUS SYSTEMS`</span>
 
@@ -46,12 +49,14 @@
 
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
-   🥇 Science Olympiad Champion (2020)                         
-   🔤 IDP English Olympiad Champion (2019)              
-   📐 District Math Olympiad Champion               
-   🎨 Front End Designer: Old Le Reve    
+   🥇 Science Olympiad Champion (2020)                       
+   🔤IDP English Olympiad Champion (2019)             
+   📐 District Math Olympiad Champion              
+   🎨 Front End Designer: Old Le Reve   
 
-## <span style="color: #FF6600;">💻 `PROJECTS`</span>
+<div align="center">
+
+   ## <span style="color: #FF6600;">💻 `PROJECTS`</span>
 
 <div align="center">
   <b>Want to see all my work? Check out my full project catalog here:</b>
@@ -61,7 +66,7 @@
   </a>
 </div>
 <div align="center">
-          
+          
 
 
 <h2 align="center">🐍 <span style="color: #FF6600;">CONTRIBUTION EATER</span></h2>
@@ -86,3 +91,4 @@
 <div align="center">
 ⚡ "CODE > SLEEP" ⚡
 </div>
+ADD A OPTION FOR MY PORTFOLIO WRITE THERE TO SEE ALL MY PROJECTS 
