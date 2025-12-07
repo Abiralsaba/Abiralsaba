@@ -49,10 +49,10 @@
 
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
-   🥇 Science Olympiad Champion (2020)                       
-   🔤IDP English Olympiad Champion (2019)             
-   📐 District Math Olympiad Champion              
-   🎨 Front End Designer: Old Le Reve   
+   🥇 Science Olympiad Champion (2020)<br>                     
+   🔤IDP English Olympiad Champion (2019)  <br>            
+   📐 District Math Olympiad Champion   <br>            
+   🎨 Front End Designer: Old Le Reve  <br>  
 
 <div align="center">
 
