@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Chess Board | Abir Al Saba</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=VT323&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        hack: {
+                            black: '#050505',
+                            dark: '#0a0a0a',
+                            green: '#00ff41',
+                            dim: '#008F11',
+                            gray: '#1a1a1a'
+                        }
+                    },
+                    fontFamily: {
+                        mono: ['"Fira Code"', 'monospace'],
+                        retro: ['"VT323"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-hack-black text-white font-mono selection:bg-hack-green selection:text-black overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 border-b border-hack-dim bg-hack-black/90 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html"
+                class="text-2xl font-retro tracking-widest hover:text-white transition-colors interactive-element">
+                > root@abir:~$ cd ..
+            </a>
+
+            <div class="hidden md:flex items-center space-x-6 text-sm">
+                <a href="index.html#projects" class="nav-item interactive-element">[ /back_to_projects ]</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen pt-24 pb-12">
+        <div class="container mx-auto px-6 max-w-4xl">
+
+            <header class="mb-12 border-b border-hack-green pb-8">
+                <div class="text-hack-green mb-2 font-retro text-xl">> ./view_project.exe --id=chess_automaton</div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 glitch-text" data-text="Automated Chess Board">Automated
+                    Chess Board</h1>
+                <p class="text-gray-400 text-lg">An innovative, engineering-focused build bringing automation to the
+                    traditional game of chess.</p>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+                <div class="aspect-video relative overflow-hidden border border-hack-dim rounded bg-hack-dark">
+                    <img src="images/1.jpeg" alt="Chess Board Image 1" class="w-full h-full object-cover">
+                </div>
+                <div class="aspect-video relative overflow-hidden border border-hack-dim rounded bg-hack-dark">
+                    <img src="images/2.jpeg" alt="Chess Board Image 2" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <article class="prose prose-invert prose-green max-w-none font-sans text-gray-300 space-y-8">
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">1.
+                        Introduction</h2>
+                    <p>The <em class="text-white">Automated Chess Board</em> project is an innovative,
+                        engineering-focused build that brings automation into the traditional game of chess. Inspired by
+                        systems like commercial automated chess boards and top-tier electronic boards, the project aims
+                        to merge robotics, sensors, and software intelligence to create a fully automated board capable
+                        of recognizing moves, validating them, and physically moving chess pieces when required.</p>
+                    <p>Developed as a university project, the system showcases teamwork, creativity, real-time
+                        problem‑solving, and technical implementation using both hardware and software components.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">2. Project
+                        Concept & Vision</h2>
+                    <ul class="list-disc list-inside space-y-2 ml-4">
+                        <li>Detects <strong>piece movement</strong> automatically.</li>
+                        <li>Identifies <strong>legal/illegal moves</strong>.</li>
+                        <li><strong>Physically moves</strong> pieces using an internal robotic mechanism.</li>
+                        <li>Communicates with a computer or mobile app in real time.</li>
+                        <li>Provides an interactive and elegant playing experience.</li>
+                    </ul>
+                    <p class="mt-4">The vision was to replicate some features of commercial automatic boards while
+                        creating our own engineering logic, mechanical design, and software stack.</p>
+                </section>
+
+                <div class="my-12 p-4 border border-hack-green bg-hack-dark/50 rounded">
+                    <h3 class="text-xl font-retro text-white mb-4 text-center">> DEMONSTRATION_VIDEO.mp4</h3>
+                    <div class="aspect-video w-full">
+                        <video controls class="w-full h-full rounded">
+                            <source src="images/4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">3. Motivation
+                    </h2>
+                    <ul class="list-disc list-inside space-y-2 ml-4">
+                        <li>Enhance real‑time chess learning and training.</li>
+                        <li>Reduce human error and track moves accurately.</li>
+                        <li>Build a robotics project that showcases applied engineering.</li>
+                        <li>Implement sensor‑based automation in a classic board game.</li>
+                        <li>Introduce a smart board for AI chess matches and demonstrations.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">4. System
+                        Overview</h2>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-hack-dark p-4 rounded border border-hack-dim">
+                            <h3 class="text-white font-bold mb-2">4.1 Hardware</h3>
+                            <ul class="text-sm list-disc list-inside space-y-1 text-gray-400">
+                                <li>Chess board with 64 squares</li>
+                                <li>Under‑board XY movement platform</li>
+                                <li>Servo/stepper mechanism</li>
+                                <li>Magnetic base pieces</li>
+                            </ul>
+                        </div>
+                        <div class="bg-hack-dark p-4 rounded border border-hack-dim">
+                            <h3 class="text-white font-bold mb-2">4.2 Sensors</h3>
+                            <ul class="text-sm list-disc list-inside space-y-1 text-gray-400">
+                                <li>Hall‑effect sensors / reed switches</li>
+                                <li>Real-time feedback</li>
+                                <li>Magnetic detection</li>
+                            </ul>
+                        </div>
+                        <div class="bg-hack-dark p-4 rounded border border-hack-dim">
+                            <h3 class="text-white font-bold mb-2">4.3 Software & Control</h3>
+                            <ul class="text-sm list-disc list-inside space-y-1 text-gray-400">
+                                <li>Arduino/ESP32/RPi</li>
+                                <li>Move validation firmware</li>
+                                <li>Path planning algorithms</li>
+                                <li>Companion app</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="aspect-video relative overflow-hidden border border-hack-dim rounded bg-hack-dark my-8">
+                    <img src="images/3.jpeg" alt="Chess Board Mechanics" class="w-full h-full object-cover">
+                </div>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">5. Working
+                        Principle</h2>
+                    <div class="space-y-4">
+                        <div class="flex gap-4">
+                            <div class="font-bold text-hack-green whitespace-nowrap">Step 1:</div>
+                            <div><strong>Move Detection</strong> - Sensors detect magnetic piece changes and generate
+                                input.</div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="font-bold text-hack-green whitespace-nowrap">Step 2:</div>
+                            <div><strong>Move Verification</strong> - Logic checks legality and game state
+                                (check/checkmate).</div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="font-bold text-hack-green whitespace-nowrap">Step 3:</div>
+                            <div><strong>Engine Interaction</strong> - Optional AI (Stockfish) generates counter-moves.
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="font-bold text-hack-green whitespace-nowrap">Step 4:</div>
+                            <div><strong>Automated Movement</strong> - XY mechanism moves electromagnet to drag piece to
+                                new square.</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">6. Mechanical
+                        Design</h2>
+                    <ul class="list-disc list-inside space-y-2 ml-4">
+                        <li><strong>XY Plotter:</strong> CoreXY/belt-driven system with two stepper motors for diagonal
+                            free movement.</li>
+                        <li><strong>Magnetic Pickup:</strong> Electromagnet on actuator head to pick/drag pieces without
+                            collisions.</li>
+                        <li><strong>Board Layers:</strong> Top wood/acrylic grid, Sensor layer (8x8 Hall matrix),
+                            Movement layer, and Control layer.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">7. Electronics
+                        & Utils</h2>
+                    <p><strong>Microcontrollers:</strong> Arduino Mega / ESP32</p>
+                    <p><strong>Drivers:</strong> A4988 / DRV8825 for NEMA17 steppers</p>
+                    <p><strong>Power:</strong> 12V for motors, 5V for logic</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">8. Software
+                        Architecture</h2>
+                    <div class="bg-hack-gray p-4 rounded font-mono text-sm border-l-2 border-hack-green">
+                        <p class="mb-2">// Firmware Functions</p>
+                        <p>void readSensors();</p>
+                        <p>bool validateMove(Move m);</p>
+                        <p>Path planPath(Square from, Square to);</p>
+                        <p>void movePiece(Square from, Square to);</p>
+                    </div>
+                    <p class="mt-4">Integration with desktop/mobile apps via Serial/Bluetooth, supporting Board
+                        Visualization, Player vs AI/Player.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">9. Algorithms
+                    </h2>
+                    <ul class="list-disc list-inside space-y-2 ml-4">
+                        <li><strong>Move Detection:</strong> Comparison of current vs previous sensor matrix.</li>
+                        <li><strong>Path Planning:</strong> A* or direct path algorithm avoiding collisions.</li>
+                        <li><strong>AI Integration:</strong> Stockfish via UCI protocol.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">12. Testing &
+                        Validation</h2>
+                    <div class="bg-hack-dark p-6 rounded border border-hack-green">
+                        <div class="text-3xl font-bold text-white mb-2">97%</div>
+                        <div class="text-hack-dim mb-4">Sensor Detection Accuracy</div>
+                        <div class="h-1 w-full bg-hack-gray rounded mb-4">
+                            <div class="h-1 bg-hack-green w-[97%]"></div>
+                        </div>
+                        <p class="text-sm">Achieved smooth movement under 1.2 seconds per square. Tested for continuous
+                            3-hour play.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">14. Tools &
+                        Models Used</h2>
+                    <div class="flex flex-wrap gap-2 text-sm font-mono">
+                        <span class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Arduino
+                            IDE</span>
+                        <span
+                            class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">PlatformIO</span>
+                        <span class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Fusion
+                            360</span>
+                        <span
+                            class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">EasyEDA</span>
+                        <span
+                            class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Python</span>
+                        <span
+                            class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Stockfish</span>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">16. Conclusion
+                    </h2>
+                    <p>The Automated Chess Board represents a fusion of mechanical engineering, embedded systems,
+                        software design, and artificial intelligence. It successfully translates traditional chess
+                        gameplay into a modern automated experience while preserving the beauty and strategy of the
+                        game. The project demonstrates how engineering and creativity can come together to build a
+                        functional, intelligent, and interactive system.</p>
+                    <p class="mt-4 text-hack-green italic">Developed entirely from scratch by Our Team ShortCircuit.
+                        (Software and Automation Lead)</p>
+                </section>
+
+            </article>
+
+            <div class="mt-16 text-center">
+                <a href="index.html#projects" class="terminal-btn inline-block">
+                    < cd .. /back_to_projects </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-hack-dim font-mono text-xs border-t border-hack-gray bg-hack-black">
+        <p>System Online since <span id="year">2019</span> | Designed by Abir Al Saba</p>
+        <p class="mt-2 text-hack-green">Code > Sleep</p>
+    </footer>
+
+</body>
+
+</html>
