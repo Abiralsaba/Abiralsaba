@@ -1,13 +1,10 @@
-
-
-```
 ██████╗ ███████╗██╗   ██╗███████╗██╗      ██████╗ ██████╗ ███████╗██████╗ 
-██╔══██╗██╔════╝██║   ██║██╔════╝██║     ██╔═══██╗██╔══██╗██╔════╝██╔══██╗
-██║  ██║█████╗  ██║   ██║█████╗  ██║     ██║   ██║██████╔╝█████╗  ██████╔╝
-██║  ██║██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗
-██████╔╝███████╗ ╚████╔╝ ███████╗███████╗╚██████╔╝██║     ███████╗██║  ██║
-╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝
-```
+██╔══██╗██╔════╝██║   ██║██╔════╝██║      ██╔═══██╗██╔══██╗██╔════╝██╔══██╗
+██║   ██║█████╗  ██║   ██║█████╗  ██║      ██║   ██║██████╔╝█████╗  ██████╔╝
+██║   ██║██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║      ██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗
+██████╔╝███████╗ ╚████╔╝ ███████╗███████╗╚██████╔╝██║      ███████╗██║  ██║
+╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝      ╚══════╝╚═╝  ╚═╝
+
 <div align="center">
 
 ### `⚡ PROBLEM SOLVER | CODE ARCHITECT | FULL STACK ⚡`
@@ -35,7 +32,7 @@
 | <span style="color: #FF6600;">**Node.js**</span> | <span style="color: #FF6600;">**Python**</span> | <span style="color: #FF6600;">**Java**</span> | <span style="color: #FF6600;">**C++**</span> | <span style="color: #FF6600;">**MySQL**</span> | <span style="color: #FF6600;">**MongoDB**</span> |
 
 </div>
-</div>
+
 
 ## <span style="color: #FF6600;">🤖 `ROBOTICS & AUTONOMOUS SYSTEMS`</span>
 
@@ -49,11 +46,20 @@
 
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
-   🥇 Science Olympiad Champion (2020)                       
-   🔤IDP English Olympiad Champion (2019)             
-   📐 District Math Olympiad Champion              
-   🎨 Front End Designer: Old Le Reve   
+   🥇 Science Olympiad Champion (2020)                         
+   🔤 IDP English Olympiad Champion (2019)              
+   📐 District Math Olympiad Champion               
+   🎨 Front End Designer: Old Le Reve    
 
+## <span style="color: #FF6600;">💻 `PROJECTS`</span>
+
+<div align="center">
+  <b>Want to see all my work? Check out my full project catalog here:</b>
+  <br><br>
+  <a href="https://abiralsaba.github.io/Abiralsaba/">
+    <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-FF6600?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio" />
+  </a>
+</div>
 <div align="center">
           
 
