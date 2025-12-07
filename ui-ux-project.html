@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX & 3D Design | Abir Al Saba</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=VT323&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        hack: {
+                            black: '#050505',
+                            dark: '#0a0a0a',
+                            green: '#00ff41',
+                            dim: '#008F11',
+                            gray: '#1a1a1a'
+                        }
+                    },
+                    fontFamily: {
+                        mono: ['"Fira Code"', 'monospace'],
+                        retro: ['"VT323"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-hack-black text-white font-mono selection:bg-hack-green selection:text-black overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 border-b border-hack-dim bg-hack-black/90 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html"
+                class="text-2xl font-retro tracking-widest hover:text-white transition-colors interactive-element">
+                > root@abir:~$ cd ..
+            </a>
+
+            <div class="hidden md:flex items-center space-x-6 text-sm">
+                <a href="index.html#projects" class="nav-item interactive-element">[ /back_to_projects ]</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen pt-24 pb-12">
+        <div class="container mx-auto px-6 max-w-4xl">
+
+            <header class="mb-12 border-b border-hack-green pb-8">
+                <div class="text-hack-green mb-2 font-retro text-xl">> ./view_project.exe --id=ui_ux_design</div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 glitch-text" data-text="UI/UX & 3D DESIGN">UI/UX & 3D
+                    DESIGN</h1>
+                <p class="text-gray-400 text-lg">A showcase of immersive 3D concepts and user-centric mobile application
+                    designs.</p>
+            </header>
+
+            <!-- PROJECT 1: LUNAR SYSTEM -->
+            <article class="prose prose-invert prose-green max-w-none font-sans text-gray-300 space-y-8 mb-24">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">🌑</span>
+                    <h2 class="text-3xl font-bold text-white m-0">PROJECT A: LUNAR SYSTEM</h2>
+                </div>
+
+                <div class="p-6 border border-hack-dim rounded bg-hack-dark/50">
+                    <h3 class="text-xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">Concept &
+                        Vision</h3>
+                    <p>The <strong>Lunar System</strong> project is a futuristic 3D design exploration centered around a
+                        sci-fi lunar ecosystem. It conceptualizes a high-tech habitat on the moon, blending industrial
+                        aesthetics with space-age technology. The design focuses on atmospheric lighting, detailed
+                        texturing, and immersive environmental storytelling.</p>
+                </div>
+
+                <div class="my-8 p-1 border border-hack-green bg-hack-black rounded">
+                    <video controls autoplay muted loop class="w-full rounded">
+                        <source src="images/9.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="p-2 text-center text-xs text-hack-dim font-mono">> rendering_3d_walkthrough.mov</div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="space-y-2">
+                        <div class="aspect-[4/3] relative overflow-hidden border border-hack-dim rounded bg-hack-dark">
+                            <img src="images/10.png" alt="Lunar System Design 1"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <p class="text-xs text-center text-gray-500 font-mono">Figure 1.1: Core Module Design</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="aspect-[4/3] relative overflow-hidden border border-hack-dim rounded bg-hack-dark">
+                            <img src="images/11.png" alt="Lunar System Design 2"
+                                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <p class="text-xs text-center text-gray-500 font-mono">Figure 1.2: Environmental Context</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- DIVIDER -->
+            <div class="w-full h-px bg-gradient-to-r from-transparent via-hack-green to-transparent my-16 opacity-50">
+            </div>
+
+            <!-- PROJECT 2: LIFE EASY APP -->
+            <article class="prose prose-invert prose-green max-w-none font-sans text-gray-300 space-y-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <span class="text-3xl">📱</span>
+                    <h2 class="text-3xl font-bold text-white m-0">PROJECT B: LIFE EASY APP</h2>
+                </div>
+
+                <div class="p-6 border border-purple-500/30 rounded bg-purple-900/10">
+                    <h3 class="text-xl font-bold text-purple-400 mb-4 border-l-4 border-purple-500 pl-4">App Philosophy
+                    </h3>
+                    <p><strong>Life Easy</strong> is a comprehensive utility application designed to streamline daily
+                        tasks and improve user productivity. The UI/UX approach prioritizes minimalism, intuitive
+                        navigation, and accessibility. By removing digital clutter, the app ensures that core
+                        functions—from task management to lifestyle tracking—are instantly accessible and a joy to use.
+                    </p>
+                </div>
+
+                <div
+                    class="my-8 p-1 border border-purple-500 bg-hack-black rounded w-full md:w-2/3 mx-auto shadow-[0_0_20px_rgba(168,85,247,0.2)]">
+                    <div class="aspect-[9/16] md:aspect-video bg-black rounded overflow-hidden">
+                        <video controls class="w-full h-full object-contain">
+                            <source src="images/12.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-2 text-center text-xs text-purple-400 font-mono">> app_prototype_demo.mov</div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 text-sm">
+                    <div>
+                        <h4 class="text-white font-bold mb-2 flex items-center gap-2"><i
+                                class="fas fa-layer-group text-purple-400"></i> Design System</h4>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400">
+                            <li><strong>Typography:</strong> Clean sans-serif focused on readability.</li>
+                            <li><strong>Color Palette:</strong> Soft aesthetics to reduce eye strain.</li>
+                            <li><strong>Components:</strong> Modular cards and consistent iconography.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-bold mb-2 flex items-center gap-2"><i
+                                class="fas fa-user-check text-purple-400"></i> UX Focus</h4>
+                        <ul class="list-disc list-inside space-y-1 text-gray-400">
+                            <li>Reduced friction in user flows.</li>
+                            <li>Clear visual hierarchy and feedback.</li>
+                            <li>One-hand usability optimization.</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <div class="mt-24 text-center">
+                <a href="index.html#projects" class="terminal-btn inline-block">
+                    < cd .. /back_to_projects </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-hack-dim font-mono text-xs border-t border-hack-gray bg-hack-black">
+        <p>System Online since <span id="year">2019</span> | Designed by Abir Al Saba</p>
+        <p class="mt-2 text-hack-green">Code > Sleep</p>
+    </footer>
+
+</body>
+
+</html>
