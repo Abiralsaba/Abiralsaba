@@ -47,6 +47,16 @@
 
 </div>
 
+## <span style="color: #FF6600;">🧠 `AI & MACHINE LEARNING`</span>
+
+<div align="center">
+
+| <img width="45" src="https://cdn.simpleicons.org/opencv/5C3EE8"/> | <img width="45" src="https://cdn.simpleicons.org/tensorflow/FF6F00"/> | <img width="45" src="https://cdn.simpleicons.org/polars/00FF41"/> |
+|:---:|:---:|:---:|
+| <span style="color: #FF6600;">**Digital Image Processing**</span> | <span style="color: #FF6600;">**Computer Vision**</span> | <span style="color: #FF6600;">**Still Learning...**</span> |
+
+</div>
+
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
    
