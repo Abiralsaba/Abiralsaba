@@ -49,10 +49,24 @@
 
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
-   🥇 Science Olympiad Champion (2020)                       
-   🔤IDP English Olympiad Champion (2019)             
-   📐 District Math Olympiad Champion              
-   🎨 Front End Designer: Old Le Reve   
+   
+💻 Competitive Programming
+
+   Codeforces Rank: Expert
+
+   Maximum Rating: 1753
+
+🥇 Olympiad Achievements
+
+   Science Olympiad Champion (2020)
+
+   IDP English Olympiad Champion (2019)
+
+   District Math Olympiad Champion
+
+🎨 Professional Experience
+
+   Front-End Designer — Old Le Reve  
 
              
 ## <span style="color: #FF6600;">🏆 `Projects and Portfolio`</span>
