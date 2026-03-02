@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATIONX — Unified Digital Government Platform | Abir Al Saba</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=VT323&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        hack: {
+                            black: '#050505',
+                            dark: '#0a0a0a',
+                            green: '#00ff41',
+                            dim: '#008F11',
+                            gray: '#1a1a1a'
+                        }
+                    },
+                    fontFamily: {
+                        mono: ['"Fira Code"', 'monospace'],
+                        retro: ['"VT323"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-hack-black text-white font-mono selection:bg-hack-green selection:text-black overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 border-b border-hack-dim bg-hack-black/90 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html"
+                class="text-2xl font-retro tracking-widest hover:text-white transition-colors interactive-element">
+                > root@abir:~$ cd ..
+            </a>
+
+            <div class="hidden md:flex items-center space-x-6 text-sm">
+                <a href="index.html#projects" class="nav-item interactive-element">[ /back_to_projects ]</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen pt-24 pb-12">
+        <div class="container mx-auto px-6 max-w-4xl">
+
+            <header class="mb-12 border-b border-hack-green pb-8">
+                <div class="text-hack-green mb-2 font-retro text-xl">> ./view_project.exe --id=nationx_govt</div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 glitch-text" data-text="NATIONX">NATIONX</h1>
+                <p class="text-gray-400 text-lg mb-2">Unified Digital Government Services Platform for Bangladesh</p>
+                <p class="text-hack-dim text-sm">DBMS Project — Full Stack e-Governance Portal</p>
+            </header>
+
+            <!-- SCREENSHOT SLIDER -->
+            <style>
+                .slider-container {
+                    position: relative;
+                    overflow: hidden;
+                    border: 1px solid #00ff41;
+                    border-radius: 0.5rem;
+                    margin-bottom: 3rem;
+                }
+
+                .slider-track {
+                    display: flex;
+                    transition: transform 0.4s ease;
+                }
+
+                .slider-track img {
+                    min-width: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                    background: #0a0a0a;
+                }
+
+                .slider-arrow {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    z-index: 10;
+                    background: rgba(0, 255, 65, 0.15);
+                    border: 1px solid #00ff41;
+                    color: #00ff41;
+                    width: 44px;
+                    height: 44px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    font-size: 1.25rem;
+                    border-radius: 4px;
+                    transition: background 0.2s;
+                    backdrop-filter: blur(4px);
+                }
+
+                .slider-arrow:hover {
+                    background: rgba(0, 255, 65, 0.35);
+                }
+
+                .slider-arrow.left {
+                    left: 12px;
+                }
+
+                .slider-arrow.right {
+                    right: 12px;
+                }
+
+                .slider-dots {
+                    display: flex;
+                    justify-content: center;
+                    gap: 6px;
+                    padding: 10px 0;
+                    background: #050505;
+                    border-top: 1px solid #1a1a1a;
+                }
+
+                .slider-dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background: #1a1a1a;
+                    border: 1px solid #008F11;
+                    cursor: pointer;
+                    transition: background 0.2s;
+                }
+
+                .slider-dot.active {
+                    background: #00ff41;
+                }
+
+                .slider-counter {
+                    position: absolute;
+                    top: 12px;
+                    right: 12px;
+                    z-index: 10;
+                    background: rgba(5, 5, 5, 0.8);
+                    border: 1px solid #008F11;
+                    color: #00ff41;
+                    font-size: 0.7rem;
+                    padding: 4px 10px;
+                    border-radius: 3px;
+                    font-family: 'Fira Code', monospace;
+                    backdrop-filter: blur(4px);
+                }
+            </style>
+
+            <div class="slider-container" id="screenshotSlider">
+                <div class="slider-counter" id="sliderCounter">1 / 11</div>
+                <button class="slider-arrow left" onclick="slideMove(-1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-arrow right" onclick="slideMove(1)"><i class="fas fa-chevron-right"></i></button>
+                <div class="slider-track" id="sliderTrack">
+                    <img src="images/NATIONX_Poster_HD-12.png" alt="NATIONX Poster">
+                    <img src="images/Screenshot%202026-03-03%20at%201.18.32%E2%80%AFAM.png" alt="NATIONX Screenshot 1">
+                    <img src="images/Screenshot%202026-03-03%20at%201.18.49%E2%80%AFAM.png" alt="NATIONX Screenshot 2">
+                    <img src="images/Screenshot%202026-03-03%20at%201.18.57%E2%80%AFAM.png" alt="NATIONX Screenshot 3">
+                    <img src="images/Screenshot%202026-03-03%20at%201.19.04%E2%80%AFAM.png" alt="NATIONX Screenshot 4">
+                    <img src="images/Screenshot%202026-03-03%20at%201.19.12%E2%80%AFAM.png" alt="NATIONX Screenshot 5">
+                    <img src="images/Screenshot%202026-03-03%20at%201.19.22%E2%80%AFAM.png" alt="NATIONX Screenshot 6">
+                    <img src="images/Screenshot%202026-03-03%20at%201.19.39%E2%80%AFAM.png" alt="NATIONX Screenshot 7">
+                    <img src="images/Screenshot%202026-03-03%20at%201.20.37%E2%80%AFAM.png" alt="NATIONX Screenshot 8">
+                    <img src="images/Screenshot%202026-03-03%20at%201.20.43%E2%80%AFAM.png" alt="NATIONX Screenshot 9">
+                    <img src="images/Screenshot%202026-03-03%20at%201.20.52%E2%80%AFAM.png" alt="NATIONX Screenshot 10">
+                </div>
+                <div class="slider-dots" id="sliderDots"></div>
+            </div>
+
+            <script>
+                    (function () {
+                        let currentSlide = 0;
+                        const track = document.getElementById('sliderTrack');
+                        const totalSlides = track.children.length;
+                        const dotsContainer = document.getElementById('sliderDots');
+                        const counter = document.getElementById('sliderCounter');
+
+                        // Create dots
+                        for (let i = 0; i < totalSlides; i++) {
+                            const dot = document.createElement('div');
+                            dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
+                            dot.onclick = () => goToSlide(i);
+                            dotsContainer.appendChild(dot);
+                        }
+
+                        function goToSlide(n) {
+                            currentSlide = n;
+                            track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+                            // Update dots
+                            const dots = dotsContainer.querySelectorAll('.slider-dot');
+                            dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+                            // Update counter
+                            counter.textContent = (currentSlide + 1) + ' / ' + totalSlides;
+                        }
+
+                        window.slideMove = function (dir) {
+                            let next = currentSlide + dir;
+                            if (next < 0) next = totalSlides - 1;
+                            if (next >= totalSlides) next = 0;
+                            goToSlide(next);
+                        };
+
+                        // Keyboard support
+                        document.addEventListener('keydown', function (e) {
+                            if (e.key === 'ArrowLeft') slideMove(-1);
+                            if (e.key === 'ArrowRight') slideMove(1);
+                        });
+                    })();
+            </script>
+
+            <article class="prose prose-invert prose-green max-w-none font-sans text-gray-300 space-y-8">
+
+                <!-- PROBLEM & SOLUTION -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🟢 THE
+                        PROBLEM & SOLUTION</h2>
+                    <p>Bangladesh has 170+ million citizens interacting with dozens of siloed government agencies —
+                        requiring visits to 10+ separate offices for basic documents like NID, Passport, and Land
+                        Records.</p>
+
+                    <div class="grid md:grid-cols-2 gap-4 mt-6">
+                        <div class="bg-red-900/20 p-4 border border-red-500/30 rounded">
+                            <h3 class="text-red-400 font-bold mb-2"><i class="fas fa-times-circle mr-2"></i>Before
+                                NATIONX</h3>
+                            <ul class="text-sm space-y-1 text-gray-400 list-disc list-inside">
+                                <li>Fragmented — 10+ offices for basic docs</li>
+                                <li>Paper-based — Records lost or forged</li>
+                                <li>No tracking after submission</li>
+                                <li>Manual approvals — weeks of waiting</li>
+                                <li>Zero citizen interaction platform</li>
+                            </ul>
+                        </div>
+                        <div class="bg-green-900/20 p-4 border border-green-500/30 rounded">
+                            <h3 class="text-hack-green font-bold mb-2"><i class="fas fa-check-circle mr-2"></i>After
+                                NATIONX</h3>
+                            <ul class="text-sm space-y-1 text-gray-400 list-disc list-inside">
+                                <li>Single portal for 20+ services</li>
+                                <li>MySQL DB with audit trails & triggers</li>
+                                <li>Real-time status tracking</li>
+                                <li>Admin dashboard with structured workflows</li>
+                                <li>Community groups, complaints, market</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- TECH STACK -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🟡 TECH
+                        STACK & STATS</h2>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
+                        <div class="bg-hack-dark border border-hack-dim p-4 rounded">
+                            <div class="text-2xl font-bold text-hack-green">150+</div>
+                            <div class="text-xs text-gray-400 mt-1">Database Tables</div>
+                        </div>
+                        <div class="bg-hack-dark border border-hack-dim p-4 rounded">
+                            <div class="text-2xl font-bold text-hack-green">327</div>
+                            <div class="text-xs text-gray-400 mt-1">API Endpoints</div>
+                        </div>
+                        <div class="bg-hack-dark border border-hack-dim p-4 rounded">
+                            <div class="text-2xl font-bold text-hack-green">16</div>
+                            <div class="text-xs text-gray-400 mt-1">DB Views</div>
+                        </div>
+                        <div class="bg-hack-dark border border-hack-dim p-4 rounded">
+                            <div class="text-2xl font-bold text-hack-green">20</div>
+                            <div class="text-xs text-gray-400 mt-1">Triggers</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 bg-hack-dark p-4 rounded border border-hack-dim font-mono text-xs overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead class="text-hack-green border-b border-hack-gray">
+                                <tr>
+                                    <th class="pb-2">Layer</th>
+                                    <th class="pb-2">Technology</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-hack-gray text-gray-300">
+                                <tr>
+                                    <td class="py-2">Backend</td>
+                                    <td>Node.js · Express 5 · REST API</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">Database</td>
+                                    <td>MySQL 8 (InnoDB) · 150+ tables · Views · Triggers · Procedures</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">Frontend</td>
+                                    <td>Vanilla JS (ES6+) · HTML5 · CSS3 · Chart.js</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">Auth</td>
+                                    <td>JWT (User + Admin) · Bcrypt · OTP Reset</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">Payments</td>
+                                    <td>SSLCommerz (Passport, Land Tax, Shop, University)</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2">Security</td>
+                                    <td>Helmet · Rate Limiter · CORS · Input Validation</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- SYSTEM ARCHITECTURE -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🔴 SYSTEM
+                        ARCHITECTURE</h2>
+                    <div
+                        class="bg-hack-gray p-4 rounded font-mono text-xs border-l-2 border-hack-green overflow-x-auto leading-relaxed">
+                        <p class="text-gray-400 mb-2">// Monolithic MVC with REST API</p>
+                        <p><span class="text-hack-green">CLIENT</span> (Browser — HTML/JS/CSS)</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;│ fetch() + Bearer JWT</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;▼</p>
+                        <p><span class="text-hack-green">EXPRESS.JS</span> (:3000)</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;├── Helmet (CSP) → CORS → Rate Limiter (100/15min)</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;├── Auth Middleware (JWT verify)</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;├── 21 Route Files → Controllers</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;▼</p>
+                        <p><span class="text-hack-green">MySQL 8</span> (InnoDB · utf8mb4)</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;├── 150+ Tables · 16 Views · 20 Triggers</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;├── 6 Stored Procedures · 28 Complex Queries</p>
+                        <p class="text-gray-500">&nbsp;&nbsp;└── Connection Pool (10 connections)</p>
+                    </div>
+                </section>
+
+                <!-- ER DIAGRAM -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">📊 ENTITY
+                        RELATIONSHIP DIAGRAM (134 Tables)</h2>
+                    <p class="mb-4">Complete ER diagram mapping all 134 tables across 12 service domains with full
+                        referential integrity.</p>
+                    <div class="border border-hack-green rounded overflow-hidden bg-white">
+                        <img src="images/nationx-complete-er-diagram-134-tables-2.png"
+                            alt="NATIONX Complete ER Diagram — 134 Tables" class="w-full object-contain cursor-pointer"
+                            onclick="window.open(this.src, '_blank')">
+                    </div>
+                    <p class="text-xs text-gray-500 text-center mt-2 font-mono">> click image to open full size</p>
+                </section>
+
+                <!-- SEQUENCE DIAGRAM -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🔄 SYSTEM
+                        SEQUENCE DIAGRAM</h2>
+                    <p class="mb-4">End-to-end request flow — from citizen browser through Express middleware, route
+                        handlers, controllers, and MySQL database layer.</p>
+                    <div class="border border-hack-green rounded overflow-auto bg-white p-2">
+                        <img src="images/nationx-complete-sequence-diagram.svg" alt="NATIONX Complete Sequence Diagram"
+                            class="w-full object-contain cursor-pointer" onclick="window.open(this.src, '_blank')">
+                    </div>
+                    <p class="text-xs text-gray-500 text-center mt-2 font-mono">> click image to open full size</p>
+                </section>
+
+                <!-- PROJECT STRUCTURE -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🔵 PROJECT
+                        STRUCTURE</h2>
+                    <div class="bg-hack-dark p-4 rounded border border-hack-dim font-mono text-xs overflow-x-auto">
+                        <pre class="text-hack-green leading-relaxed">central-govt/
+├── .env                    <span class="text-gray-500"># DB_HOST, JWT_SECRET, PORT</span>
+├── public/                 <span class="text-gray-500"># Static frontend</span>
+│   ├── *.html              <span class="text-gray-500"># 25+ pages (dashboard, nid, passport...)</span>
+│   ├── css/                <span class="text-gray-500"># 21 stylesheets</span>
+│   ├── js/                 <span class="text-gray-500"># 23 frontend scripts</span>
+│   └── uploads/            <span class="text-gray-500"># nid/ passport/ products/ user_docs/</span>
+│
+└── src/                    <span class="text-gray-500"># Backend</span>
+    ├── app.js              <span class="text-gray-500"># Express entry point</span>
+    ├── config/db.js        <span class="text-gray-500"># MySQL2 pool</span>
+    ├── middleware/          <span class="text-gray-500"># auth · admin · upload</span>
+    ├── controllers/        <span class="text-gray-500"># auth · dashboard · user · admin</span>
+    ├── routes/             <span class="text-gray-500"># 21 route files (327 endpoints)</span>
+    └── database/           <span class="text-gray-500"># 25 SQL files (schema, views, triggers)</span></pre>
+                    </div>
+                </section>
+
+                <!-- SERVICE MODULES -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🟣 12
+                        SERVICE MODULES</h2>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🆔</span>
+                            <div class="text-white font-bold mt-1">NID Wing</div>
+                            <div class="text-gray-500 text-xs">14 tables · 33 APIs</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🛂</span>
+                            <div class="text-white font-bold mt-1">e-Passport</div>
+                            <div class="text-gray-500 text-xs">5 tables · SSLCommerz</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🏠</span>
+                            <div class="text-white font-bold mt-1">Land Records</div>
+                            <div class="text-gray-500 text-xs">Auto-transfer trigger</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">💰</span>
+                            <div class="text-white font-bold mt-1">Tax / NBR</div>
+                            <div class="text-gray-500 text-xs">TIN · VAT · Returns</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🏥</span>
+                            <div class="text-white font-bold mt-1">Health (DGHS)</div>
+                            <div class="text-gray-500 text-xs">6 tables · 40 APIs</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">💧</span>
+                            <div class="text-white font-bold mt-1">Water (WASA)</div>
+                            <div class="text-gray-500 text-xs">5 tables · 33 APIs</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🎓</span>
+                            <div class="text-white font-bold mt-1">Education</div>
+                            <div class="text-gray-500 text-xs">JSC · SSC · HSC Results</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🌾</span>
+                            <div class="text-white font-bold mt-1">Agriculture</div>
+                            <div class="text-gray-500 text-xs">Subsidy · Market · Training</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🛒</span>
+                            <div class="text-white font-bold mt-1">e-Shop</div>
+                            <div class="text-gray-500 text-xs">Cart · Orders · Payment</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">👥</span>
+                            <div class="text-white font-bold mt-1">Community</div>
+                            <div class="text-gray-500 text-xs">Groups · Posts · Likes</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🏫</span>
+                            <div class="text-white font-bold mt-1">University</div>
+                            <div class="text-gray-500 text-xs">Admission · SSLCommerz</div>
+                        </div>
+                        <div
+                            class="bg-hack-dark border border-hack-dim p-3 rounded hover:border-hack-green transition-colors">
+                            <span class="text-lg">🔐</span>
+                            <div class="text-white font-bold mt-1">Admin Panel</div>
+                            <div class="text-gray-500 text-xs">55+ endpoints · Full CRUD</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- KEY DB FEATURES -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">⚙️ DATABASE
+                        ENGINEERING</h2>
+                    <div class="space-y-4">
+                        <div class="bg-hack-dark p-4 rounded border border-hack-dim">
+                            <h3 class="text-white font-bold mb-2">Triggers (Automated Logic)</h3>
+                            <ul class="text-sm list-disc list-inside space-y-1 text-gray-400">
+                                <li><span class="text-hack-green">Land Mutation Approval</span> — auto-transfers
+                                    ownership from seller to buyer</li>
+                                <li><span class="text-hack-green">Like/Comment Counters</span> — real-time count
+                                    sync on community posts</li>
+                                <li><span class="text-hack-green">Audit Logging</span> — JSON snapshots
+                                    of old/new values on mutations</li>
+                                <li><span class="text-hack-green">Cart Auto-Clear</span> — clears cart
+                                    on order placement + notification</li>
+                            </ul>
+                        </div>
+                        <div class="bg-hack-dark p-4 rounded border border-hack-dim">
+                            <h3 class="text-white font-bold mb-2">Complex Queries</h3>
+                            <ul class="text-sm list-disc list-inside space-y-1 text-gray-400">
+                                <li><span class="text-hack-green">WITH ROLLUP</span> — hierarchical
+                                    location reports with auto subtotals</li>
+                                <li><span class="text-hack-green">Window Functions</span> — running totals,
+                                    RANK(), LAG(), 7-day moving avg</li>
+                                <li><span class="text-hack-green">Recursive CTE</span> — Division → District →
+                                    Upazila hierarchy tree</li>
+                                <li><span class="text-hack-green">Multi-CTE Scoring</span> — user engagement
+                                    with NTILE() quartiles</li>
+                            </ul>
+                        </div>
+                        <div class="bg-hack-dark p-4 rounded border border-hack-dim">
+                            <h3 class="text-white font-bold mb-2">3NF Normalization</h3>
+                            <ul class="text-sm list-disc list-inside space-y-1 text-gray-400">
+                                <li>Address types + geographic FK hierarchy (Division → District → Upazila)</li>
+                                <li>Unified payment ledger with GENERATED columns</li>
+                                <li>Document status lookup table with UI color codes</li>
+                                <li>Global audit_log with JSON old/new value snapshots</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SECURITY -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🛡️ SECURITY
+                    </h2>
+                    <div class="flex flex-wrap gap-2 text-xs font-mono">
+                        <span class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">JWT
+                            Auth (User + Admin)</span>
+                        <span class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Bcrypt
+                            (10 rounds)</span>
+                        <span class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Helmet
+                            CSP</span>
+                        <span class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Rate
+                            Limiter (100/15min)</span>
+                        <span
+                            class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Parameterized
+                            Queries</span>
+                        <span class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">OTP
+                            Password Reset</span>
+                        <span class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">Multer
+                            (5MB, Images Only)</span>
+                        <span
+                            class="px-3 py-1 bg-hack-dark border border-hack-green rounded text-hack-green">express-validator</span>
+                    </div>
+                </section>
+
+                <!-- CREDITS -->
+                <section>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🏁 CREDITS
+                    </h2>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                        <li class="flex justify-between border-b border-hack-gray py-1"><span>Full Stack
+                                Developer</span> <span class="text-hack-green">@abiralsaba</span></li>
+                        <li class="flex justify-between border-b border-hack-gray py-1"><span>Database
+                                Architect</span> <span class="text-hack-green">@abiralsaba</span></li>
+                        <li class="flex justify-between border-b border-hack-gray py-1"><span>API Designer</span>
+                            <span class="text-hack-green">@abiralsaba</span>
+                        </li>
+                        <li class="flex justify-between border-b border-hack-gray py-1"><span>Frontend
+                                Engineer</span> <span class="text-hack-green">@abiralsaba</span></li>
+                    </ul>
+                </section>
+
+            </article>
+
+            <div class="mt-16 text-center">
+                <a href="index.html#projects" class="terminal-btn inline-block">
+                    < cd .. /back_to_projects </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-hack-dim font-mono text-xs border-t border-hack-gray bg-hack-black">
+        <p>System Online since <span id="year">2019</span> | Designed by Abir Al Saba</p>
+        <p class="mt-2 text-hack-green">Code > Sleep</p>
+    </footer>
+
+</body>
+
+</html>
