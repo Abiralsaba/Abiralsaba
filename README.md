@@ -66,8 +66,10 @@
 
    Maximum Rating: 1753
 
-🥇 Olympiad Achievements
+🥇 Olympiad and Achievements
 
+  🏆 CHAMPION DBMS(Database Management System) PROJECT SHOW 
+  
    Science Olympiad Champion (2020)
 
    IDP English Olympiad Champion (2019)
@@ -77,6 +79,7 @@
 🎨 Professional Experience
 
    Front-End Designer — Old Le Reve  
+   NATIONX-Govt Portal(Full Stack)(Developing stage)
 
              
 ## <span style="color: #FF6600;">🏆 `Projects and Portfolio`</span>
