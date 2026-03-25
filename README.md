@@ -68,7 +68,7 @@
 
 🥇 Olympiad and Achievements
 
-  🏆 CHAMPION DBMS(Database Management System) PROJECT SHOW 
+   CHAMPION DBMS(Database Management System) PROJECT SHOW 
   
    Science Olympiad Champion (2020)
 
