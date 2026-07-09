@@ -114,7 +114,7 @@
       <img src="https://img.shields.io/badge/1st_in_Asia-116_Teams_Globally-FFD700?style=flat-square&labelColor=1a1a2e" alt="Asia"/>
       <br><br>
       <b>University Rover Challenge 2026</b><br>
-      <sub>The Mars Society · UIU Mars Rover Team (UMRT)</sub>
+      <sub>The Mars Society · Mars Rover Team (UMRT)</sub>
       <br><br>
     </td>
     <td align="center" width="50%">
