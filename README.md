@@ -124,9 +124,8 @@
       </a>
       <br><br>
       <img src="https://img.shields.io/badge/Max_Rating-1753-FFD700?style=flat-square&labelColor=1a1a2e" alt="Rating"/>
-      <img src="https://img.shields.io/badge/BD_Rank-2nd-FFD700?style=flat-square&labelColor=1a1a2e" alt="Rank"/>
+      <img src="https://img.shields.io/badge/BD_Rank_2nd-Round_1081_Div._2-FFD700?style=flat-square&labelColor=1a1a2e" alt="Rank"/>
       <br><br>
-      <b>Round 1081 Div. 2</b><br>
       <sub>300+ Algorithmic Problems Solved in C++</sub>
       <br><br>
     </td>
