@@ -70,6 +70,7 @@
             <div class="hidden md:flex items-center space-x-6 text-sm">
                 <a href="#home" class="nav-item interactive-element">[ /home ]</a>
                 <a href="#projects" class="nav-item interactive-element">[ /projects ]</a>
+                <a href="#experience" class="nav-item interactive-element">[ /experience ]</a>
                 <a href="#achievements" class="nav-item interactive-element">[ /achievements ]</a>
                 <a href="#skills" class="nav-item interactive-element">[ /skills ]</a>
                 <a href="#contact" class="nav-item interactive-element">[ /contact ]</a>
@@ -92,6 +93,7 @@
             <div class="flex flex-col p-6 space-y-4 font-retro text-xl">
                 <a href="#home" class="mobile-link interactive-element">> cd /home</a>
                 <a href="#projects" class="mobile-link interactive-element">> cd /projects</a>
+                <a href="#experience" class="mobile-link interactive-element">> cd /experience</a>
                 <a href="#achievements" class="mobile-link interactive-element">> cd /achievements</a>
                 <a href="#skills" class="mobile-link interactive-element">> cd /skills</a>
                 <a href="#contact" class="mobile-link interactive-element">> cd /contact</a>
@@ -114,13 +116,13 @@
 
                 <div
                     class="bg-hack-gray/50 p-4 border-l-2 border-hack-green mb-8 font-mono text-sm text-gray-300 shadow-lg">
-                    <span class="text-hack-green">const</span> <span class="text-blue-400">mission</span> = {<br>
-                    &nbsp;&nbsp;role: <span class="text-yellow-300">"Full Stack Architect","Robotics and
-                        Autonomous"</span>,<br>
-                    &nbsp;&nbsp;focus: <span class="text-yellow-300">"Pixel Perfect Solutions"</span>,<br>
-                    &nbsp;&nbsp;stack: [<span class="text-yellow-300">"React"</span>, <span
-                        class="text-yellow-300">"Node"</span>, <span class="text-yellow-300">"Python"</span>,<span
-                        class="text-yellow-300">"ROS 2"</span>]<br>
+                    <span class="text-hack-green">const</span> <span class="text-blue-400">engineer</span> = {<br>
+                    &nbsp;&nbsp;role: <span class="text-yellow-300">"AI & Robotics Engineer"</span>,<br>
+                    &nbsp;&nbsp;org: <span class="text-yellow-300">"CAIR — Autonomous Systems"</span>,<br>
+                    &nbsp;&nbsp;stack: [<span class="text-yellow-300">"ROS 2"</span>, <span
+                        class="text-yellow-300">"Python"</span>, <span class="text-yellow-300">"C++"</span>, <span
+                        class="text-yellow-300">"Node.js"</span>, <span class="text-yellow-300">"React"</span>],<br>
+                    &nbsp;&nbsp;achievement: <span class="text-yellow-300">"URC 2026 — 3rd Worldwide"</span><br>
                     };
                 </div>
 
@@ -278,113 +280,297 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- ROS 2 Mars Rover Controller -->
+                <div class="terminal-card group interactive-element card-3d">
+                    <div class="terminal-header">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        </div>
+                        <div class="text-xs text-gray-500">mars_rover_ctrl.ros2</div>
+                    </div>
+                    <div class="relative h-48 overflow-hidden border-b border-hack-green bg-hack-dark flex items-center justify-center">
+                        <div class="text-center p-4">
+                            <div class="text-6xl mb-2">🤖</div>
+                            <div class="text-hack-green font-retro text-lg">ROS 2 MARS ROVER</div>
+                            <div class="text-hack-dim text-xs mt-1">URC 2026 — 3rd Worldwide</div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">ROS 2 Mars Rover Controller</h3>
+                        <p class="text-hack-dim text-sm mb-4 font-mono">Built a ROS 2-based control system for a Mars rover with autonomous navigation, manual control, seamless mode transitions, and 5-DOF robotic arm integration.</p>
+                        <div class="flex gap-2 text-xs font-mono flex-wrap">
+                            <span class="text-hack-green">[ROS 2 Jazzy]</span>
+                            <span class="text-hack-green">[Python]</span>
+                            <span class="text-hack-green">[C++]</span>
+                            <span class="text-hack-green">[JavaScript]</span>
+                            <span class="text-hack-green">[5-DOF Arm]</span>
+                        </div>
+                        <div class="mt-4 text-xs text-gray-500 font-mono">
+                            > github.com/Abiralsaba/ros2_MARS_ROVER_Controller <span class="animate-blink">_</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vita / Dako Emergency Dispatch System -->
+                <div class="terminal-card group interactive-element card-3d">
+                    <div class="terminal-header">
+                        <div class="flex gap-2">
+                            <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                            <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                        </div>
+                        <div class="text-xs text-gray-500">emergency_dispatch.sys</div>
+                    </div>
+                    <div class="relative h-48 overflow-hidden border-b border-hack-green bg-hack-dark flex items-center justify-center">
+                        <div class="text-center p-4">
+                            <div class="text-6xl mb-2">🚨</div>
+                            <div class="text-hack-green font-retro text-lg">EMERGENCY DISPATCH</div>
+                            <div class="text-hack-dim text-xs mt-1">Real-time · GPS · Socket</div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Vita / Dako Emergency Dispatch</h3>
+                        <p class="text-hack-dim text-sm mb-4 font-mono">Real-time emergency platform connecting users with police, ambulance, fire, and transport services. Features nearest-unit dispatch and live GPS tracking.</p>
+                        <div class="flex gap-2 text-xs font-mono flex-wrap">
+                            <span class="text-hack-green">[Socket Programming]</span>
+                            <span class="text-hack-green">[Real-time]</span>
+                            <span class="text-hack-green">[GPS]</span>
+                            <span class="text-hack-green">[Node.js]</span>
+                        </div>
+                        <div class="mt-4 text-xs text-gray-500 font-mono">
+                            > github.com/Abiralsaba/Emergency_Dispatch_System <span class="animate-blink">_</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="achievements" class="py-24 border-t border-hack-gray">
+    <!-- PROFESSIONAL EXPERIENCE SECTION -->
+    <section id="experience" class="py-24 border-t border-hack-gray">
         <div class="container mx-auto px-6">
             <div class="mb-16">
-                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">02.</span> /achievements
+                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">02.</span> /experience</h2>
+                <div class="h-px w-24 bg-hack-green"></div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- CAIR -->
+                <div class="experience-card interactive-element card-3d">
+                    <div class="flex flex-wrap justify-between items-start mb-3">
+                        <div>
+                            <div class="text-white text-lg font-bold">Software and Autonomous Systems Engineer</div>
+                            <div class="text-hack-green text-sm">Center of Artificial Intelligence and Robotics (CAIR)</div>
+                        </div>
+                        <div class="text-right">
+                            <span class="exp-badge">2025 — PRESENT</span>
+                            <div class="text-gray-500 text-xs mt-1">Dhaka, Bangladesh · Full-time</div>
+                        </div>
+                    </div>
+                    <ul class="text-gray-300 space-y-1 text-sm">
+                        <li>Designed and implemented automation pipelines for robotics and AI-driven systems</li>
+                        <li>Developed intelligent control systems integrating <span class="text-hack-green">ROS 2</span>, computer vision, and sensor fusion</li>
+                        <li>Built full-stack software tools for real-time telemetry, diagnostics, and rover monitoring dashboards</li>
+                        <li>Engineered embedded firmware for multi-DOF robotic arm control and navigation subsystems</li>
+                    </ul>
+                </div>
+
+                <!-- Project Builder Bangladesh -->
+                <div class="experience-card interactive-element card-3d">
+                    <div class="flex flex-wrap justify-between items-start mb-3">
+                        <div>
+                            <div class="text-white text-lg font-bold">AI & Autonomous Systems Engineer</div>
+                            <div class="text-hack-green text-sm">Project Builder Bangladesh</div>
+                        </div>
+                        <div class="text-right">
+                            <span class="exp-badge">APR 2024 — PRESENT</span>
+                            <div class="text-gray-500 text-xs mt-1">Bangladesh · On-site · Part-time</div>
+                        </div>
+                    </div>
+                    <ul class="text-gray-300 space-y-1 text-sm">
+                        <li>Engineered scalable robotics software using <span class="text-hack-green">ROS 2</span>, Node.js, and Python; deployed autonomous navigation</li>
+                        <li>Trained and integrated AI/ML models for real-time edge inference on embedded hardware</li>
+                        <li>Led cross-functional teams; optimized backend and database architectures</li>
+                    </ul>
+                </div>
+
+                <!-- Old Le Reve -->
+                <div class="experience-card interactive-element card-3d">
+                    <div class="flex flex-wrap justify-between items-start mb-3">
+                        <div>
+                            <div class="text-white text-lg font-bold">Front-End Designer</div>
+                            <div class="text-hack-green text-sm">Old Le Reve</div>
+                        </div>
+                    </div>
+                    <ul class="text-gray-300 space-y-1 text-sm">
+                        <li>Designed and developed front-end interfaces and brand visuals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section id="achievements" class="py-24 border-t border-hack-gray bg-hack-black/80">
+        <div class="container mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">03.</span> /achievements
                 </h2>
                 <div class="h-px w-24 bg-hack-green"></div>
             </div>
 
             <div class="grid md:grid-cols-2 gap-6">
+                <!-- URC 2026 - FEATURED -->
+                <div
+                    class="md:col-span-2 bg-hack-dark border border-hack-dim p-8 font-mono text-sm transition-colors interactive-element card-3d achievement-featured">
+                    <div class="text-yellow-400 mb-2 text-xs tracking-widest">// URC-2026 — THE MARS SOCIETY</div>
+                    <div class="text-white text-2xl font-bold mb-2 font-retro">> 🥉 3rd Worldwide · 1st in Asia</div>
+                    <div class="text-yellow-400 text-sm">University Rover Challenge (URC) 2026 — <span class="text-white">116 teams worldwide</span></div>
+                    <div class="text-gray-400 text-xs mt-2">UIU Mars Rover Team (UMRT) — Software & Autonomous Systems</div>
+                </div>
+
+                <!-- Codeforces -->
                 <div
                     class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
-                    <div class="text-gray-500 mb-2">// COMPETITIVE-LOG</div>
+                    <div class="text-gray-500 mb-2">// COMPETITIVE-PROGRAMMING</div>
                     <div class="text-white text-lg font-bold mb-1">> Expert in Codeforces</div>
-                    <div class="text-hack-green">Status: <span class="text-white">Max Rating 1753</span></div>
+                    <div class="text-hack-green">Max Rating: <span class="text-white">1753</span> · Global Rank <span class="text-white">151</span> in Div. 2</div>
+                    <div class="text-gray-400 text-xs mt-2">300+ algorithmic problems solved in C++</div>
                 </div>
 
+                <!-- DBMS Champion -->
                 <div
                     class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
-                    <div class="text-gray-500 mb-2">// 2020-LOG</div>
-                    <div class="text-white text-lg font-bold mb-1">> Science Olympiad Champion</div>
-                    <div class="text-hack-green">Status: <span class="text-white">Awarded 1st Place (Regional)</span>
-                    </div>
+                    <div class="text-gray-500 mb-2">// DBMS-PROJECT-SHOW</div>
+                    <div class="text-white text-lg font-bold mb-1">> 🏆 CHAMPION — DBMS Project Show</div>
+                    <div class="text-hack-green">Status: <span class="text-white">1st among 150 teams</span></div>
+                    <div class="text-gray-400 text-xs mt-2">Best Database Management System — NATIONX</div>
                 </div>
 
+                <!-- GRIC Robotics -->
                 <div
                     class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
-                    <div class="text-gray-500 mb-2">// 2019-LOG</div>
-                    <div class="text-white text-lg font-bold mb-1">> IDP English Olympiad</div>
+                    <div class="text-gray-500 mb-2">// ROBOTICS-SDG</div>
+                    <div class="text-white text-lg font-bold mb-1">> 🏆 CHAMPION — National Robotics & SDG</div>
+                    <div class="text-hack-green">Status: <span class="text-white">GRIC Competition — Innovation & SDG Impact</span></div>
+                </div>
+
+                <!-- Math Olympiad -->
+                <div
+                    class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
+                    <div class="text-gray-500 mb-2">// MATH-OLYMPIAD-2022</div>
+                    <div class="text-white text-lg font-bold mb-1">> 🏆 National Math Olympiad Winner</div>
+                    <div class="text-hack-green">Status: <span class="text-white">District Champion in Mathematics</span></div>
+                </div>
+
+                <!-- Science Olympiad -->
+                <div
+                    class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
+                    <div class="text-gray-500 mb-2">// SCIENCE-OLYMPIAD-2020</div>
+                    <div class="text-white text-lg font-bold mb-1">> 🏆 Science Olympiad Champion</div>
+                    <div class="text-hack-green">Status: <span class="text-white">Regional Science Olympiad Champion</span></div>
+                </div>
+
+                <!-- IDP English -->
+                <div
+                    class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
+                    <div class="text-gray-500 mb-2">// ENGLISH-OLYMPIAD-2019</div>
+                    <div class="text-white text-lg font-bold mb-1">> 🏆 IDP English Olympiad Champion</div>
                     <div class="text-hack-green">Status: <span class="text-white">Champion</span></div>
                 </div>
 
+                <!-- Physics Olympiad -->
                 <div
                     class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
-                    <div class="text-gray-500 mb-2">// DISTRICT-LOG</div>
-                    <div class="text-white text-lg font-bold mb-1">> Math Olympiad</div>
-                    <div class="text-hack-green">Status: <span class="text-white">Top Position Secured</span></div>
-                </div>
-
-                <div
-                    class="bg-hack-dark border border-hack-dim p-6 font-mono text-sm hover:border-hack-green transition-colors interactive-element card-3d">
-                    <div class="text-gray-500 mb-2">// WORK-LOG</div>
-                    <div class="text-white text-lg font-bold mb-1">> Front End Designer</div>
-                    <div class="text-hack-green">Org: <span class="text-white">Old Le Reve</span></div>
+                    <div class="text-gray-500 mb-2">// PHYSICS-OLYMPIAD-2020</div>
+                    <div class="text-white text-lg font-bold mb-1">> 🥈 Regional Physics Olympiad</div>
+                    <div class="text-hack-green">Status: <span class="text-white">Runner Up</span></div>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <section id="skills" class="py-24 border-t border-hack-gray bg-hack-black/80">
+    <section id="skills" class="py-24 border-t border-hack-gray">
         <div class="container mx-auto px-6">
             <div class="mb-16">
-                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">03.</span> /skills</h2>
+                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">04.</span> /skills</h2>
                 <div class="h-px w-24 bg-hack-green"></div>
             </div>
 
-            <div class="border border-hack-green p-4 bg-hack-black font-mono text-sm interactive-element card-3d">
+            <div class="border border-hack-green p-4 md:p-6 bg-hack-black font-mono text-sm interactive-element card-3d">
                 <div class="flex items-center gap-2 border-b border-hack-gray pb-2 mb-4">
                     <div class="w-3 h-3 rounded-full bg-hack-green animate-pulse"></div>
                     <span>system_capabilities.json</span>
                 </div>
-                <div class="grid md:grid-cols-2 gap-8">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div>
-                        <div class="text-white mb-4">"frontend": [</div>
+                        <div class="text-white mb-4">"languages": [</div>
                         <ul class="pl-8 space-y-2 text-hack-green">
-                            <li>"React.js",</li>
-                            <li>"Tailwind CSS",</li>
-                            <li>"JavaScript (ES6+)",</li>
-                            <li>"HTML5 / Canvas"</li>
-                            <li>UI/UX/FIGMA</li>
+                            <li>"Python",</li>
+                            <li>"C/C++",</li>
+                            <li>"JavaScript",</li>
+                            <li>"TypeScript",</li>
+                            <li>"SQL",</li>
+                            <li>"PHP",</li>
+                            <li>"HTML5/CSS3"</li>
                         </ul>
                         <div class="text-white mt-4">],</div>
                     </div>
                     <div>
-                        <div class="text-white mb-4">"backend": [</div>
+                        <div class="text-white mb-4">"web_&_backend": [</div>
                         <ul class="pl-8 space-y-2 text-hack-green">
                             <li>"Node.js",</li>
-                            <li>"Python",</li>
+                            <li>"Express.js",</li>
+                            <li>"React.js",</li>
+                            <li>"REST APIs",</li>
+                            <li>"MySQL",</li>
                             <li>"MongoDB",</li>
-                            <li>"My Sql"</li>
-                            <li>"DBMS"</li>
-
+                            <li>"Socket Programming"</li>
                         </ul>
-                        <div class="text-white mt-4">]</div>
+                        <div class="text-white mt-4">],</div>
                     </div>
 
                     <div>
-                        <div class="text-white mb-4">"ROBOTICS AND AUTONOMOUS": [</div>
+                        <div class="text-white mb-4">"ai_ml_cv": [</div>
                         <ul class="pl-8 space-y-2 text-hack-green">
-                            <li>"ROBOT OPERATING SYSTEM 2",</li>
-                            <li>"UBUNTU",</li>
-                            <li>"ROBOFLOW",</li>
-                            <li>Still progressing......</li>
+                            <li>"PyTorch",</li>
+                            <li>"TensorFlow",</li>
+                            <li>"OpenCV",</li>
+                            <li>"Scikit-learn",</li>
+                            <li>"Deep Learning",</li>
+                            <li>"Neural Networks",</li>
+                            <li>"Sensor Fusion",</li>
+                            <li>"Path Planning"</li>
                         </ul>
-                        <div class="text-white mt-4">]</div>
+                        <div class="text-white mt-4">],</div>
                     </div>
 
                     <div>
-                        <div class="text-white mb-4">"AI/ML": [</div>
+                        <div class="text-white mb-4">"robotics": [</div>
                         <ul class="pl-8 space-y-2 text-hack-green">
-                            <li>"Digital Image Processing",</li>
-                            <li>"Computer Vision",</li>
-                            <li>Still Learning.....</li>
+                            <li>"ROS / ROS 2",</li>
+                            <li>"Autonomous Navigation",</li>
+                            <li>"Microcontrollers",</li>
+                            <li>"Hardware Integration",</li>
+                            <li>"Digital Image Processing"</li>
+                        </ul>
+                        <div class="text-white mt-4">],</div>
+                    </div>
+
+                    <div>
+                        <div class="text-white mb-4">"tools": [</div>
+                        <ul class="pl-8 space-y-2 text-hack-green">
+                            <li>"Git",</li>
+                            <li>"Linux/Ubuntu",</li>
+                            <li>"Docker",</li>
+                            <li>"Figma",</li>
+                            <li>"Roboflow",</li>
+                            <li>"NumPy",</li>
+                            <li>"Pandas"</li>
                         </ul>
                         <div class="text-white mt-4">]</div>
                     </div>
@@ -394,10 +580,10 @@
         </div>
     </section>
 
-    <section id="profiles" class="py-24 border-t border-hack-gray">
+    <section id="profiles" class="py-24 border-t border-hack-gray bg-hack-black/80">
         <div class="container mx-auto px-6">
             <div class="mb-16">
-                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">04.</span> /social_network
+                <h2 class="text-3xl font-retro text-white mb-2"><span class="text-hack-green">05.</span> /social_network
                 </h2>
                 <div class="h-px w-24 bg-hack-green"></div>
             </div>

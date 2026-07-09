@@ -191,3 +191,100 @@
         top: 110%;
     }
 }
+
+/* Experience Timeline Cards */
+.experience-card {
+    background-color: #0a0a0a;
+    border: 1px solid #333;
+    padding: 1.5rem;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
+    position: relative;
+    border-left: 3px solid #00ff41;
+}
+
+.experience-card:hover {
+    border-color: #00ff41;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.15);
+}
+
+.experience-card .exp-badge {
+    display: inline-block;
+    background: rgba(0, 255, 65, 0.1);
+    border: 1px solid #00ff41;
+    color: #00ff41;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+}
+
+.experience-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experience-card ul li::before {
+    content: "> ";
+    color: #00ff41;
+}
+
+/* Featured Achievement Card (URC 2026 Gold) */
+.achievement-featured {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.05), rgba(10, 10, 10, 1));
+    border: 2px solid #ffd700 !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.achievement-featured::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #ffd700, transparent, #ffd700);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.achievement-featured:hover {
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.3), 0 0 60px rgba(255, 215, 0, 0.1);
+}
+
+.achievement-featured:hover::before {
+    opacity: 0.15;
+}
+
+/* Glitch Button (Hire) */
+.glitch-btn {
+    background-color: #00ff41;
+    color: black;
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    border: 2px solid #00ff41;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.glitch-btn:hover {
+    background-color: transparent;
+    color: #00ff41;
+    text-shadow: 0 0 8px #00ff41;
+}
+
+/* Mobile Link Styling */
+.mobile-link {
+    color: #00ff41;
+    transition: all 0.2s;
+    font-family: 'VT323', monospace;
+}
+
+.mobile-link:hover {
+    text-shadow: 0 0 8px #00ff41;
+    color: white;
+}

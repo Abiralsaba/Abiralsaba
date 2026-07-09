@@ -10,19 +10,21 @@
 ```
 <div align="center">
 
-### `⚡ PROBLEM SOLVER | CODE ARCHITECT | FULL STACK ⚡`
+### `⚡ AI & ROBOTICS ENGINEER | AUTONOMOUS SYSTEMS DEVELOPER | FULL-STACK ARCHITECT ⚡`
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6600&center=true&vCenter=true&width=435&lines=Building+Pixel+Perfect+Solutions;Always+Coding%2C+Always+Learning;Let's+Create+Something+Cool!" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6600&center=true&vCenter=true&width=500&lines=Building+Pixel+Perfect+Solutions;Mars+Rover+%7C+ROS+2+%7C+Computer+Vision;Codeforces+Expert+%7C+Rating+1753;Always+Coding%2C+Always+Learning;Let's+Create+Something+Cool!" alt="Typing SVG" />
 
 </div>
+
+---
 
 ## <span style="color: #FF6600;">🎨 `FRONTEND`</span>
 
 <div align="center">
 
-| <img width="40" src="https://cdn.simpleicons.org/javascript/F7DF1E"/> | <img width="40" src="https://cdn.simpleicons.org/react/61DAFB"/> | <img width="40" src="https://cdn.simpleicons.org/html5/E34F26"/> | <img width="40" src="https://cdn.simpleicons.org/css3"/> | <img width="40" src="https://cdn.simpleicons.org/figma/F24E1E"/> |
-|:---:|:---:|:---:|:---:|:---:|
-| <span style="color: #FF6600;">**JavaScript**</span> | <span style="color: #FF6600;">**React**</span> | <span style="color: #FF6600;">**HTML5**</span> | <span style="color: #FF6600;">**CSS3**</span> | <span style="color: #FF6600;">**Figma**</span> |
+| <img width="40" src="https://cdn.simpleicons.org/javascript/F7DF1E"/> | <img width="40" src="https://cdn.simpleicons.org/typescript/3178C6"/> | <img width="40" src="https://cdn.simpleicons.org/react/61DAFB"/> | <img width="40" src="https://cdn.simpleicons.org/html5/E34F26"/> | <img width="40" src="https://cdn.simpleicons.org/css3"/> | <img width="40" src="https://cdn.simpleicons.org/figma/F24E1E"/> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <span style="color: #FF6600;">**JavaScript**</span> | <span style="color: #FF6600;">**TypeScript**</span> | <span style="color: #FF6600;">**React.js**</span> | <span style="color: #FF6600;">**HTML5**</span> | <span style="color: #FF6600;">**CSS3**</span> | <span style="color: #FF6600;">**Figma**</span> |
 
 </div>
 
@@ -30,20 +32,31 @@
 
 <div align="center">
 
-| <img width="40" src="https://cdn.simpleicons.org/nodedotjs/339933"/> | <img width="40" src="https://cdn.simpleicons.org/python/3776AB"/> | <img width="40" src="https://cdn.simpleicons.org/openjdk/ED8B00"/> | <img width="40" src="https://cdn.simpleicons.org/cplusplus/00599C"/> | <img width="40" src="https://cdn.simpleicons.org/mysql/4479A1"/> | <img width="40" src="https://cdn.simpleicons.org/mongodb/47A248"/> |
+| <img width="40" src="https://cdn.simpleicons.org/nodedotjs/339933"/> | <img width="40" src="https://cdn.simpleicons.org/express/FFFFFF"/> | <img width="40" src="https://cdn.simpleicons.org/python/3776AB"/> | <img width="40" src="https://cdn.simpleicons.org/php/777BB4"/> | <img width="40" src="https://cdn.simpleicons.org/openjdk/ED8B00"/> | <img width="40" src="https://cdn.simpleicons.org/cplusplus/00599C"/> |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| <span style="color: #FF6600;">**Node.js**</span> | <span style="color: #FF6600;">**Python**</span> | <span style="color: #FF6600;">**Java**</span> | <span style="color: #FF6600;">**C++**</span> | <span style="color: #FF6600;">**MySQL**</span> | <span style="color: #FF6600;">**MongoDB**</span> |
+| <span style="color: #FF6600;">**Node.js**</span> | <span style="color: #FF6600;">**Express.js**</span> | <span style="color: #FF6600;">**Python**</span> | <span style="color: #FF6600;">**PHP**</span> | <span style="color: #FF6600;">**Java**</span> | <span style="color: #FF6600;">**C++**</span> |
 
 </div>
+
+## <span style="color: #FF6600;">🗄️ `DATABASES & APIs`</span>
+
+<div align="center">
+
+| <img width="40" src="https://cdn.simpleicons.org/mysql/4479A1"/> | <img width="40" src="https://cdn.simpleicons.org/mongodb/47A248"/> | <img width="40" src="https://cdn.simpleicons.org/postman/FF6C37"/> |
+|:---:|:---:|:---:|
+| <span style="color: #FF6600;">**MySQL / SQL**</span> | <span style="color: #FF6600;">**MongoDB**</span> | <span style="color: #FF6600;">**REST APIs**</span> |
+
 </div>
 
 ## <span style="color: #FF6600;">🤖 `ROBOTICS & AUTONOMOUS SYSTEMS`</span>
 
 <div align="center">
 
-| <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" style="filter: invert(46%) sepia(97%) saturate(1399%) hue-rotate(360deg) brightness(101%) contrast(106%);"/> | <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" style="filter: invert(46%) sepia(97%) saturate(1399%) hue-rotate(360deg) brightness(101%) contrast(106%);"/> | <img width="45" src="https://cdn.simpleicons.org/python/3776AB"/> |
-|:---:|:---:|:---:|
-| <span style="color: #FF6600;">**ROS 2**</span> | <span style="color: #FF6600;">**Jazzy Jalisco**</span> | <span style="color: #FF6600;">**Python (Nodes)**</span> |
+| <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg"/> | <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg"/> | <img width="45" src="https://cdn.simpleicons.org/arduino/00878F"/> | <img width="45" src="https://cdn.simpleicons.org/python/3776AB"/> |
+|:---:|:---:|:---:|:---:|
+| <span style="color: #FF6600;">**ROS / ROS 2**</span> | <span style="color: #FF6600;">**Jazzy Jalisco**</span> | <span style="color: #FF6600;">**Microcontrollers**</span> | <span style="color: #FF6600;">**Autonomous Navigation**</span> |
+
+> **Specialties:** Hardware Integration · Sensor Fusion · Path Planning · Digital Image Processing · Socket Programming
 
 </div>
 
@@ -51,39 +64,86 @@
 
 <div align="center">
 
-| <img width="45" src="https://cdn.simpleicons.org/opencv/5C3EE8"/> | <img width="45" src="https://cdn.simpleicons.org/tensorflow/FF6F00"/> | <img width="45" src="https://cdn.simpleicons.org/polars/00FF41"/> |
-|:---:|:---:|:---:|
-| <span style="color: #FF6600;">**Digital Image Processing**</span> | <span style="color: #FF6600;">**Computer Vision**</span> | <span style="color: #FF6600;">**Still Learning...**</span> |
+| <img width="45" src="https://cdn.simpleicons.org/pytorch/EE4C2C"/> | <img width="45" src="https://cdn.simpleicons.org/tensorflow/FF6F00"/> | <img width="45" src="https://cdn.simpleicons.org/opencv/5C3EE8"/> | <img width="45" src="https://cdn.simpleicons.org/scikitlearn/F7931E"/> |
+|:---:|:---:|:---:|:---:|
+| <span style="color: #FF6600;">**PyTorch**</span> | <span style="color: #FF6600;">**TensorFlow**</span> | <span style="color: #FF6600;">**OpenCV**</span> | <span style="color: #FF6600;">**Scikit-learn**</span> |
+
+> **Domains:** Deep Learning · Neural Networks · Computer Vision · Sensor Fusion · Digital Image Processing
 
 </div>
 
+## <span style="color: #FF6600;">🛠️ `TOOLS & PLATFORMS`</span>
+
+<div align="center">
+
+| <img width="40" src="https://cdn.simpleicons.org/git/F05032"/> | <img width="40" src="https://cdn.simpleicons.org/linux/FCC624"/> | <img width="40" src="https://cdn.simpleicons.org/docker/2496ED"/> | <img width="40" src="https://cdn.simpleicons.org/numpy/013243"/> | <img width="40" src="https://cdn.simpleicons.org/pandas/150458"/> | <img width="40" src="https://cdn.simpleicons.org/roboflow/6706CE"/> |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <span style="color: #FF6600;">**Git**</span> | <span style="color: #FF6600;">**Linux/Ubuntu**</span> | <span style="color: #FF6600;">**Docker**</span> | <span style="color: #FF6600;">**NumPy**</span> | <span style="color: #FF6600;">**Pandas**</span> | <span style="color: #FF6600;">**Roboflow**</span> |
+
+</div>
+
+---
+
+## <span style="color: #FF6600;">💼 `PROFESSIONAL EXPERIENCE`</span>
+
+🔧 **Software and Autonomous Systems Engineer** — *Center of Artificial Intelligence and Robotics (CAIR)*  
+&nbsp;&nbsp;&nbsp;&nbsp;📍 Dhaka, Bangladesh · Full-time · **2025 — Present**  
+- Designed and implemented automation pipelines for robotics and AI-driven systems in research and production environments  
+- Developed intelligent control systems integrating **ROS 2**, computer vision, and sensor fusion for autonomous operations  
+- Built and maintained full-stack software tools for real-time telemetry, diagnostics, and remote rover monitoring dashboards  
+- Engineered embedded firmware and communication protocols for multi-DOF robotic arm control and navigation subsystems  
+
+🤖 **AI & Autonomous Systems Engineer** — *Project Builder Bangladesh*  
+&nbsp;&nbsp;&nbsp;&nbsp;📍 Bangladesh · On-site · Part-time · **Apr 2024 — Present**  
+- Engineered scalable robotics software using **ROS 2**, Node.js, and Python; deployed autonomous navigation systems  
+- Trained and integrated AI/ML models for real-time edge inference on embedded hardware platforms  
+- Led cross-functional teams; optimized backend and database architectures for throughput and reliability  
+
+🎨 **Front-End Designer** — *Old Le Reve*
+
+---
+
+## <span style="color: #FF6600;">🚀 `KEY PROJECTS`</span>
+
+🏛️ **NATIONX — Unified e-Governance Portal** &nbsp; `Node.js` `Express` `MySQL` `REST API`  
+&nbsp;&nbsp;&nbsp;&nbsp;Architected a massive digital government platform with **150+ database tables**, **327 APIs**, and 12 integrated service modules  
+&nbsp;&nbsp;&nbsp;&nbsp;🏆 **Champion among 150 teams** at DBMS Project Show
+
+🔴 **ROS 2 Mars Rover Controller** &nbsp; `ROS 2 (Jazzy)` `Python` `C++` `JavaScript`  
+&nbsp;&nbsp;&nbsp;&nbsp;Built a ROS 2-based control system for a Mars rover supporting **autonomous navigation** and manual control  
+&nbsp;&nbsp;&nbsp;&nbsp;Seamless mode transitions, 5-DOF robotic arm integration  
+
+🚨 **Vita / Dako Emergency Dispatch System** &nbsp; `Socket Programming` `Real-time Systems`  
+&nbsp;&nbsp;&nbsp;&nbsp;Developed a real-time emergency platform connecting users with police, ambulance, fire, and transport services  
+&nbsp;&nbsp;&nbsp;&nbsp;Features **nearest-unit dispatch** and live GPS tracking  
+
+🤖 **AI Smart Traffic Camera & Chess Automaton** &nbsp; `Python` `OpenCV` `Deep Learning` `C++` `Microcontroller`  
+&nbsp;&nbsp;&nbsp;&nbsp;Built CV/ML models for intelligent traffic monitoring and vehicle detection  
+&nbsp;&nbsp;&nbsp;&nbsp;Developed an autonomous chessboard with robotic piece movement and AI gameplay  
+
+---
+
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
-   
-💻 Competitive Programming
+🌍 **Mars Rover Challenge**
 
-   Codeforces Rank: Expert
+&nbsp;&nbsp;&nbsp;&nbsp;🥉 **3rd Worldwide · 1st in Asia** — University Rover Challenge (URC) 2026, The Mars Society (116 teams)
 
-   Maximum Rating: 1753
+💻 **Competitive Programming**
 
-🥇 Olympiad and Achievements
+&nbsp;&nbsp;&nbsp;&nbsp;Codeforces Rank: **Expert** &nbsp; | &nbsp; Maximum Rating: **1753** &nbsp; | &nbsp; Global Rank **151** in Div. 2  
+&nbsp;&nbsp;&nbsp;&nbsp;300+ algorithmic problems solved in C++ (Codeforces + LeetCode)
 
-   CHAMPION DBMS(Database Management System) PROJECT SHOW 
-  
-   Science Olympiad Champion (2020)
+🥇 **Championships & Olympiads**
 
-   IDP English Olympiad Champion (2019)
+&nbsp;&nbsp;&nbsp;&nbsp;🏆 CHAMPION — DBMS Project Show (1st among 150 teams for best Database Management System)  
+&nbsp;&nbsp;&nbsp;&nbsp;🏆 CHAMPION — National Robotics & SDG Competition by GRIC (Innovation & SDG Impact)  
+&nbsp;&nbsp;&nbsp;&nbsp;🏆 National Math Olympiad Winner — District Champion in Mathematics (2022)  
+&nbsp;&nbsp;&nbsp;&nbsp;🏆 Science Olympiad Champion — Regional Science Olympiad Champion (2020)  
+&nbsp;&nbsp;&nbsp;&nbsp;🏆 IDP English Olympiad Champion (2019)  
+&nbsp;&nbsp;&nbsp;&nbsp;🥈 Regional Physics Olympiad Runner Up (2020)
 
-   National Math Olympiad Winner (2022)
-
-   Regional Physics Olympiad Runner Up (2020)
-
-   
-🎨 Professional Experience
-
-   Front-End Designer — Old Le Reve  
-   NATIONX-Govt Portal(Full Stack)(Developing stage)
-
+---
              
 ## <span style="color: #FF6600;">🏆 `Projects and Portfolio`</span>
 <div align="center">
@@ -106,6 +166,8 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abir-al-saba-04a1a61b8/)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-FF6600?style=flat-square&logo=google-chrome&logoColor=white)](https://abiralsaba.github.io/Abiralsaba/)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:abiralsabs@gmail.com)
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Abiralsaba)
 
 
 

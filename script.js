@@ -23,7 +23,7 @@ mobileLinks.forEach(link => {
 
 // 3. Terminal Typing Effect
 const typeText = document.querySelector('.type-effect');
-const words = ["Web_Developer", "System_Architect", "Problem_Solver", "Robotics and Autonomous_Systems_Engineer"];
+const words = ["AI_&_Robotics_Engineer", "Autonomous_Systems_Developer", "Full_Stack_Architect", "Codeforces_Expert", "Mars_Rover_Engineer"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
