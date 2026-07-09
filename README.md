@@ -165,9 +165,13 @@
              
 ## <span style="color: #FF6600;">🏆 `Projects and Portfolio`</span>
 <div align="center">
-  <br><br>
+  <br>
   <a href="https://abiralsaba.github.io/Abiralsaba/">
     <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-FF6600?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio" />
+  </a>
+  <br>
+  <a href="https://abiralsaba.github.io/Abiralsaba/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=500&color=FF6600&center=true&vCenter=true&width=250&lines=👆+Click+Here!;🚀+View+My+Portfolio;💻+See+All+Projects" alt="Click Here"/>
   </a>
 </div>
 <div align="center">
