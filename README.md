@@ -90,7 +90,7 @@
 
 | <img width="50" src="https://cdn.simpleicons.org/robotframework/FF6600"/> | <img width="50" src="https://cdn.simpleicons.org/circuitverse/FF6600"/> | <img width="50" src="https://cdn.simpleicons.org/figma/FF6600"/> |
 | :---: | :---: | :---: |
-| <span style="color: #FF6600;">**CAIR**</span> | <span style="color: #FF6600;">**Project Builder BD**</span> | <span style="color: #FF6600;">**Old Le Reve**</span> |
+| <span style="color: #FF6600;">**Center of Artificial Intelligence<br>and Robotics (CAIR)**</span> | <span style="color: #FF6600;">**Project Builder BD**</span> | <span style="color: #FF6600;">**Old Le Reve**</span> |
 | **Software & Autonomous**<br>Systems Engineer | **AI & Autonomous**<br>Systems Engineer | **Front-End**<br>Designer |
 | 📍 Dhaka, BD | 📍 Bangladesh | 📍 Bangladesh |
 | *Full-time • 2025 - Present* | *Part-time • Apr 2024 - Present* | *Previous* |
