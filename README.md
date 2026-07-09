@@ -115,7 +115,7 @@
       <img width="50" src="https://cdn.simpleicons.org/codeforces/FF6600"/>
       <h3><span style="color: #FF6600;">COMPETITIVE PROGRAMMING</span></h3>
       <p><b>Codeforces Expert</b></p>
-      <p>Maximum Rating: <b>1753</b><br>Global Rank <b>151</b> in Div. 2</p>
+      <p>Maximum Rating: <b>1753</b><br>BD Rank <b>2nd</b> in Round 1081 Div. 2</p>
       <p><i>300+ Algorithmic Problems Solved</i></p>
     </td>
   </tr>
