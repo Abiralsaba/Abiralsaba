@@ -154,7 +154,7 @@
   <tr>
     <td align="center">
       <img src="https://img.shields.io/badge/🏆_WINNER-National_Math_Olympiad-FF6600?style=flat-square&labelColor=1a1a2e"/>
-      <br><sub>District Champion · 2022</sub>
+      <br><sub>Regional Champion · 2022</sub>
     </td>
   </tr>
   <tr>
