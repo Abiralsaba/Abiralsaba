@@ -101,40 +101,74 @@
 
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
-<table width="100%" border="0" align="center">
+<div align="center">
+
+<table>
   <tr>
-    <td width="50%" align="center" valign="top">
+    <td align="center" width="50%">
       <br>
-      <img width="50" src="https://cdn.simpleicons.org/nasa/FF6600"/>
+      <a href="https://urc.marssociety.org/">
+        <img src="https://img.shields.io/badge/🥉_URC_2026-3rd_WORLDWIDE-FF6600?style=for-the-badge&labelColor=1a1a2e" alt="URC"/>
+      </a>
       <br><br>
-      <p><b>University Rover Challenge (URC) 2026</b><br><i>The Mars Society</i></p>
-      <p>🥉 <b>3rd Worldwide · 1st in Asia</b><br>(Out of 116 teams globally)</p>
+      <img src="https://img.shields.io/badge/1st_in_Asia-116_Teams_Globally-FFD700?style=flat-square&labelColor=1a1a2e" alt="Asia"/>
+      <br><br>
+      <b>University Rover Challenge 2026</b><br>
+      <sub>The Mars Society · UIU Mars Rover Team (UMRT)</sub>
+      <br><br>
     </td>
-    <td width="50%" align="center" valign="top">
+    <td align="center" width="50%">
       <br>
-      <img width="50" src="https://cdn.simpleicons.org/codeforces/FF6600"/>
-      <h3><span style="color: #FF6600;">COMPETITIVE PROGRAMMING</span></h3>
-      <p><b>Codeforces Expert</b></p>
-      <p>Maximum Rating: <b>1753</b><br>BD Rank <b>2nd</b> in Round 1081 Div. 2</p>
-      <p><i>300+ Algorithmic Problems Solved</i></p>
+      <a href="https://codeforces.com/">
+        <img src="https://img.shields.io/badge/CODEFORCES-EXPERT-FF6600?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=1a1a2e" alt="CF"/>
+      </a>
+      <br><br>
+      <img src="https://img.shields.io/badge/Max_Rating-1753-FFD700?style=flat-square&labelColor=1a1a2e" alt="Rating"/>
+      <img src="https://img.shields.io/badge/BD_Rank-2nd-FFD700?style=flat-square&labelColor=1a1a2e" alt="Rank"/>
+      <br><br>
+      <b>Round 1081 Div. 2</b><br>
+      <sub>300+ Algorithmic Problems Solved in C++</sub>
+      <br><br>
     </td>
   </tr>
 </table>
 
-<table width="100%" border="0" align="center">
+<br>
+
+<img src="https://img.shields.io/badge/🥇_CHAMPIONSHIPS_&_OLYMPIADS-FF6600?style=for-the-badge&labelColor=1a1a2e" alt="Championships"/>
+
+<br><br>
+
+<table>
   <tr>
-    <td width="100%" align="center">
-      <h3><span style="color: #FF6600;">🥇 CHAMPIONSHIPS & OLYMPIADS</span></h3>
-      <p>
-        🏆 <b>CHAMPION</b> — DBMS Project Show (1st among 150 teams)<br><br>
-        🏆 <b>CHAMPION</b> — National Robotics & SDG Competition by GRIC<br><br>
-        🏆 <b>WINNER</b> — National Math Olympiad (District Champion 2022)<br><br>
-        🏆 <b>CHAMPION</b> — Regional Science Olympiad (2020)<br><br>
-        🥈 <b>RUNNER UP</b> — Regional Physics Olympiad (2020)
-      </p>
+    <td align="center" width="50%">
+      <img src="https://img.shields.io/badge/🏆_CHAMPION-DBMS_Project_Show-FF6600?style=flat-square&labelColor=1a1a2e"/>
+      <br><sub>1st among 150 teams — NATIONX</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://img.shields.io/badge/🏆_CHAMPION-National_Robotics_&_SDG-FF6600?style=flat-square&labelColor=1a1a2e"/>
+      <br><sub>GRIC · Innovation & SDG Impact</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://img.shields.io/badge/🏆_WINNER-National_Math_Olympiad-FF6600?style=flat-square&labelColor=1a1a2e"/>
+      <br><sub>District Champion · 2022</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://img.shields.io/badge/🏆_CHAMPION-Science_Olympiad-FF6600?style=flat-square&labelColor=1a1a2e"/>
+      <br><sub>Regional Champion · 2020</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="https://img.shields.io/badge/🥈_RUNNER_UP-Physics_Olympiad-C0C0C0?style=flat-square&labelColor=1a1a2e"/>
+      <br><sub>Regional · 2020</sub>
     </td>
   </tr>
 </table>
+
+</div>
 
 ---
              
