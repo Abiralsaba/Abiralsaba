@@ -143,7 +143,7 @@
   </td></tr>
   <tr><td align="center">
     <img src="https://img.shields.io/badge/🏆_CHAMPION-NATIONAL_ROBOTICS_&_SDG_COMPETITION-FF6600?style=flat-square&labelColor=1a1a2e"/>
-    <br><sub>GRIC · Innovation & SDG Impact</sub>
+    <br><sub>Innovation & SDG Impact</sub>
   </td></tr>
   <tr><td align="center">
     <img src="https://img.shields.io/badge/🏆_WINNER-NATIONAL_MATH_OLYMPIAD-FF6600?style=flat-square&labelColor=1a1a2e"/>
