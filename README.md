@@ -101,37 +101,28 @@
 
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
-<table width="100%" border="0" align="center">
+<table width="100%" border="0">
   <tr>
-    <td width="50%" align="center" valign="top">
+    <td width="50%" valign="top">
+      <h3 align="left"><span style="color: #FF6600;">🚀 GLOBAL MILESTONES</span></h3>
+      <hr>
       <br>
-      <img width="50" src="https://img.icons8.com/nolan/64/mars-planet.png"/>
-      <h3><span style="color: #FF6600;">MARS ROVER CHALLENGE</span></h3>
-      <p><b>University Rover Challenge (URC) 2026</b><br><i>The Mars Society</i></p>
-      <p>🥉 <b>3rd Worldwide · 1st in Asia</b><br>(Out of 116 teams globally)</p>
+      <b>🥉 URC 2026 — 3rd Worldwide</b><br>
+      <i>The Mars Society • 1st in Asia (Out of 116 Teams)</i>
+      <br><br>
+      <b>💻 Codeforces Expert</b><br>
+      <i>Max Rating: 1753 • Global Rank 151 (Div. 2)</i><br>
+      <i>300+ algorithmic problems solved in C++</i>
     </td>
-    <td width="50%" align="center" valign="top">
+    <td width="50%" valign="top">
+      <h3 align="left"><span style="color: #FF6600;">🏆 CHAMPIONSHIPS</span></h3>
+      <hr>
       <br>
-      <img width="50" src="https://cdn.simpleicons.org/codeforces/FF6600"/>
-      <h3><span style="color: #FF6600;">COMPETITIVE PROGRAMMING</span></h3>
-      <p><b>Codeforces Expert</b></p>
-      <p>Maximum Rating: <b>1753</b><br>Global Rank <b>151</b> in Div. 2</p>
-      <p><i>300+ Algorithmic Problems Solved</i></p>
-    </td>
-  </tr>
-</table>
-
-<table width="100%" border="0" align="center">
-  <tr>
-    <td width="100%" align="center">
-      <h3><span style="color: #FF6600;">🥇 CHAMPIONSHIPS & OLYMPIADS</span></h3>
-      <p>
-        🏆 <b>CHAMPION</b> — DBMS Project Show (1st among 150 teams)<br><br>
-        🏆 <b>CHAMPION</b> — National Robotics & SDG Competition by GRIC<br><br>
-        🏆 <b>WINNER</b> — National Math Olympiad (District Champion 2022)<br><br>
-        🏆 <b>CHAMPION</b> — Regional Science Olympiad (2020)<br><br>
-        🥈 <b>RUNNER UP</b> — Regional Physics Olympiad (2020)
-      </p>
+      🥇 <b>DBMS Project Show</b> <i>(1st among 150 teams)</i><br><br>
+      🥇 <b>National Robotics & SDG</b> <i>(GRIC Champion)</i><br><br>
+      🥇 <b>National Math Olympiad</b> <i>(District Champion)</i><br><br>
+      🥇 <b>Regional Science Olympiad</b> <i>(2020 Champion)</i><br><br>
+      🥈 <b>Regional Physics Olympiad</b> <i>(2020 Runner Up)</i>
     </td>
   </tr>
 </table>
