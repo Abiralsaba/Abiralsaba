@@ -88,16 +88,9 @@
 
 🔧 **Software and Autonomous Systems Engineer** — *Center of Artificial Intelligence and Robotics (CAIR)*  
 &nbsp;&nbsp;&nbsp;&nbsp;📍 Dhaka, Bangladesh · Full-time · **2025 — Present**  
-- Designed and implemented automation pipelines for robotics and AI-driven systems in research and production environments  
-- Developed intelligent control systems integrating **ROS 2**, computer vision, and sensor fusion for autonomous operations  
-- Built and maintained full-stack software tools for real-time telemetry, diagnostics, and remote rover monitoring dashboards  
-- Engineered embedded firmware and communication protocols for multi-DOF robotic arm control and navigation subsystems  
 
 🤖 **AI & Autonomous Systems Engineer** — *Project Builder Bangladesh*  
 &nbsp;&nbsp;&nbsp;&nbsp;📍 Bangladesh · On-site · Part-time · **Apr 2024 — Present**  
-- Engineered scalable robotics software using **ROS 2**, Node.js, and Python; deployed autonomous navigation systems  
-- Trained and integrated AI/ML models for real-time edge inference on embedded hardware platforms  
-- Led cross-functional teams; optimized backend and database architectures for throughput and reliability  
 
 🎨 **Front-End Designer** — *Old Le Reve*
 
