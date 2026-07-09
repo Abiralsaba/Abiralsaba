@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vita / Dako Emergency Dispatch System | Abir Al Saba</title>
+    <title>Dako Emergency Dispatch System | Abir Al Saba</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,10 +56,10 @@
     <section class="min-h-screen pt-24 pb-12">
         <div class="container mx-auto px-6 max-w-4xl">
             <header class="mb-12 border-b border-hack-green pb-8">
-                <div class="text-hack-green mb-2 font-retro text-xl">> ./view_project.exe --id=vita_/_dako</div>
-                <h1 class="text-4xl md:text-6xl font-bold mb-4 glitch-text" data-text="VITA / DAKO">VITA / DAKO</h1>
+                <div class="text-hack-green mb-2 font-retro text-xl">> ./view_project.exe --id=dako</div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 glitch-text" data-text="DAKO">DAKO</h1>
                 <p class="text-gray-400 text-lg mb-2">Real-time Emergency Dispatch System</p>
-                <p class="text-hack-dim text-sm">Socket.io — Node.js — GPS Tracking</p>
+                <p class="text-hack-dim text-sm">Java — Spring Boot — React</p>
             </header>
             <style>
                 .slider-container { position: relative; overflow: hidden; border: 1px solid #00ff41; border-radius: 0.5rem; margin-bottom: 3rem; aspect-ratio: 16 / 9; background: #0a0a0a; }
@@ -85,7 +85,7 @@
                     <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🟢 THE PROBLEM & SOLUTION</h2>
                     <div class="text-gray-300 leading-relaxed space-y-4 font-mono text-sm">
                         <p><strong>The Problem:</strong> Traditional emergency dispatch systems often rely on slow, manual radio communications and phone calls. Precious minutes are lost determining the user's exact location and finding the nearest available emergency unit.</p>
-                        <p><strong>The Solution:</strong> Vita / Dako is a real-time, socket-based emergency dispatch platform. It instantly connects users in distress with the nearest police, fire, ambulance, or transport services. The system features live GPS tracking and automated nearest-unit dispatch algorithms, reducing response times drastically.</p>
+                        <p><strong>The Solution:</strong> Dako is an Uber-like emergency dispatch system built for scalability and modularity. It connects users in distress with the nearest police, fire, or ambulance services. Powered by a robust Java Spring Boot backend and a React frontend, it features core dispatch and assignment logic designed to drastically reduce response times.</p>
                     </div>
                 </section>
 
@@ -93,49 +93,49 @@
                     <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🟡 TECH STACK</h2>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                         <div class="border border-hack-dim p-4 text-center rounded bg-hack-dark">
-                            <i class="fab fa-node-js text-3xl text-hack-green mb-2"></i>
-                            <div class="text-sm">Node.js</div>
+                            <i class="fab fa-java text-3xl text-hack-green mb-2"></i>
+                            <div class="text-sm">Java 25</div>
                         </div>
                         <div class="border border-hack-dim p-4 text-center rounded bg-hack-dark">
-                            <i class="fas fa-network-wired text-3xl text-hack-green mb-2"></i>
-                            <div class="text-sm">Socket.io</div>
+                            <i class="fas fa-leaf text-3xl text-hack-green mb-2"></i>
+                            <div class="text-sm">Spring Boot 4.x</div>
                         </div>
                         <div class="border border-hack-dim p-4 text-center rounded bg-hack-dark">
-                            <i class="fas fa-map-marker-alt text-3xl text-hack-green mb-2"></i>
-                            <div class="text-sm">Geolocation API</div>
+                            <i class="fab fa-react text-3xl text-hack-green mb-2"></i>
+                            <div class="text-sm">React</div>
                         </div>
                         <div class="border border-hack-dim p-4 text-center rounded bg-hack-dark">
-                            <i class="fas fa-database text-3xl text-hack-green mb-2"></i>
-                            <div class="text-sm">MongoDB</div>
+                            <i class="fas fa-cogs text-3xl text-hack-green mb-2"></i>
+                            <div class="text-sm">Gradle</div>
                         </div>
                     </div>
                 </section>
 
                 <section>
-                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🔴 CORE FEATURES</h2>
+                    <h2 class="text-2xl font-bold text-hack-green mb-4 border-l-4 border-hack-green pl-4">🔴 CORE ARCHITECTURE & FEATURES</h2>
                     <ul class="space-y-4 text-gray-300 font-mono text-sm">
                         <li class="flex items-start">
                             <i class="fas fa-check-square text-hack-green mt-1 mr-3"></i>
                             <div>
-                                <strong class="text-white">Real-Time Socket Communication:</strong> Ensures instantaneous alert transmission between the user app and the dispatcher dashboard without page reloads.
+                                <strong class="text-white">Modular Service Domains:</strong> Clean architectural separation of distinct emergency sectors including ambulance, fire service, and police response operations.
                             </div>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-check-square text-hack-green mt-1 mr-3"></i>
                             <div>
-                                <strong class="text-white">Live GPS Tracking:</strong> Continuous coordinate updates allow emergency units to track moving targets and navigate efficiently.
+                                <strong class="text-white">Core Dispatch Logic:</strong> Advanced routing and assignment algorithms functioning similarly to modern ride-hailing applications (Uber-like) for rapid responder allocation.
                             </div>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-check-square text-hack-green mt-1 mr-3"></i>
                             <div>
-                                <strong class="text-white">Nearest-Unit Dispatch Algorithm:</strong> Automatically calculates the distance between the distress signal and available units, dispatching the closest responder.
+                                <strong class="text-white">Robust Security & Auth:</strong> Comprehensive user authentication and management layered within the Spring Boot framework to ensure secure access.
                             </div>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-check-square text-hack-green mt-1 mr-3"></i>
                             <div>
-                                <strong class="text-white">Multi-Service Support:</strong> Unified platform for Police, Ambulance, Fire Brigade, and Transport services.
+                                <strong class="text-white">Modern Frontend Infrastructure:</strong> A seamless, scalable user interface built entirely with React and Node.js-based dependency management.
                             </div>
                         </li>
                     </ul>
