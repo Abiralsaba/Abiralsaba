@@ -101,23 +101,40 @@
 
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
-🌍 **Mars Rover Challenge**
+<table width="100%" border="0" align="center">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <br>
+      <img width="50" src="https://img.icons8.com/nolan/64/mars-planet.png"/>
+      <h3><span style="color: #FF6600;">MARS ROVER CHALLENGE</span></h3>
+      <p><b>University Rover Challenge (URC) 2026</b><br><i>The Mars Society</i></p>
+      <p>🥉 <b>3rd Worldwide · 1st in Asia</b><br>(Out of 116 teams globally)</p>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <br>
+      <img width="50" src="https://cdn.simpleicons.org/codeforces/FF6600"/>
+      <h3><span style="color: #FF6600;">COMPETITIVE PROGRAMMING</span></h3>
+      <p><b>Codeforces Expert</b></p>
+      <p>Maximum Rating: <b>1753</b><br>Global Rank <b>151</b> in Div. 2</p>
+      <p><i>300+ Algorithmic Problems Solved</i></p>
+    </td>
+  </tr>
+</table>
 
-&nbsp;&nbsp;&nbsp;&nbsp;🥉 **3rd Worldwide · 1st in Asia** — University Rover Challenge (URC) 2026, The Mars Society (116 teams)
-
-💻 **Competitive Programming**
-
-&nbsp;&nbsp;&nbsp;&nbsp;Codeforces Rank: **Expert** &nbsp; | &nbsp; Maximum Rating: **1753** &nbsp; | &nbsp; Global Rank **151** in Div. 2  
-&nbsp;&nbsp;&nbsp;&nbsp;300+ algorithmic problems solved in C++ (Codeforces + LeetCode)
-
-🥇 **Championships & Olympiads**
-
-&nbsp;&nbsp;&nbsp;&nbsp;🏆 CHAMPION — DBMS Project Show (1st among 150 teams for best Database Management System)  
-&nbsp;&nbsp;&nbsp;&nbsp;🏆 CHAMPION — National Robotics & SDG Competition by GRIC (Innovation & SDG Impact)  
-&nbsp;&nbsp;&nbsp;&nbsp;🏆 National Math Olympiad Winner — District Champion in Mathematics (2022)  
-&nbsp;&nbsp;&nbsp;&nbsp;🏆 Science Olympiad Champion — Regional Science Olympiad Champion (2020)  
-&nbsp;&nbsp;&nbsp;&nbsp;🏆 IDP English Olympiad Champion (2019)  
-&nbsp;&nbsp;&nbsp;&nbsp;🥈 Regional Physics Olympiad Runner Up (2020)
+<table width="100%" border="0" align="center">
+  <tr>
+    <td width="100%" align="center">
+      <h3><span style="color: #FF6600;">🥇 CHAMPIONSHIPS & OLYMPIADS</span></h3>
+      <p>
+        🏆 <b>CHAMPION</b> — DBMS Project Show (1st among 150 teams)<br><br>
+        🏆 <b>CHAMPION</b> — National Robotics & SDG Competition by GRIC<br><br>
+        🏆 <b>WINNER</b> — National Math Olympiad (District Champion 2022)<br><br>
+        🏆 <b>CHAMPION</b> — Regional Science Olympiad (2020)<br><br>
+        🥈 <b>RUNNER UP</b> — Regional Physics Olympiad (2020)
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
              
