@@ -104,7 +104,7 @@
 <div align="center">
 
 <img src="https://img.shields.io/badge/🌍_GLOBAL_ACHIEVEMENTS-FF6600?style=for-the-badge&labelColor=1a1a2e" alt="Global Achievements"/>
-<br>
+<br><br>
 <table>
   <tr>
     <td align="center" width="50%">
@@ -135,7 +135,7 @@
 </table>
 <br>
 <img src="https://img.shields.io/badge/🥇_CHAMPIONSHIPS_&_OLYMPIADS-FF6600?style=for-the-badge&labelColor=1a1a2e" alt="Championships"/>
-<br>
+<br><br>
 <table>
   <tr><td align="center">
     <img src="https://img.shields.io/badge/🏆_CHAMPION-DBMS_PROJECT_SHOW_(1st_among_150_teams)-FF6600?style=flat-square&labelColor=1a1a2e"/>
