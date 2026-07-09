@@ -171,7 +171,7 @@
   </a>
   <br>
   <a href="https://abiralsaba.github.io/Abiralsaba/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2000&pause=500&color=FF6600&center=true&vCenter=true&width=250&lines=👆+Click+Here!;🚀+View+My+Portfolio;💻+See+All+Projects" alt="Click Here"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2000&pause=500&color=FF6600&center=true&vCenter=true&repeat=true&width=300&height=30&lines=%F0%9F%91%86+Click+Here!;%F0%9F%9A%80+View+My+Portfolio;%F0%9F%92%BB+See+All+Projects" alt="Click Here"/>
   </a>
 </div>
 <div align="center">
