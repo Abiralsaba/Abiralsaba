@@ -61,9 +61,17 @@
                 <p class="text-gray-400 text-lg mb-2">Real-time Emergency Dispatch System</p>
                 <p class="text-hack-dim text-sm">Socket.io — Node.js — GPS Tracking</p>
             </header>
-            
-            
-            
+            <style>
+                .slider-container { position: relative; overflow: hidden; border: 1px solid #00ff41; border-radius: 0.5rem; margin-bottom: 3rem; aspect-ratio: 16 / 9; background: #0a0a0a; }
+                .slider-track { display: flex; transition: transform 0.4s ease; height: 100%; }
+                .slider-track img { min-width: 100%; width: 100%; height: 100%; object-fit: contain; background: #0a0a0a; }
+            </style>
+            <div class="slider-container group">
+                <div class="slider-track" id="slider-track">
+                    <img src="images/dako-home.jpg" alt="Dako Landing Page">
+                    <img src="images/dako-login.png" alt="Dako Login Page">
+                </div>
+            </div>
             <div class="mt-8 mb-12">
                 <a href="https://github.com/Abiralsaba/Emergency_Dispatch_System" target="_blank" class="inline-block border border-hack-green text-hack-green px-6 py-3 hover:bg-hack-green hover:text-black transition-colors font-bold font-retro text-xl">
                     <i class="fab fa-github mr-2"></i> VIEW SOURCE CODE ON GITHUB
