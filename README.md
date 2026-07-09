@@ -103,26 +103,6 @@
 
 ---
 
-## <span style="color: #FF6600;">🚀 `KEY PROJECTS`</span>
-
-🏛️ **NATIONX — Unified e-Governance Portal** &nbsp; `Node.js` `Express` `MySQL` `REST API`  
-&nbsp;&nbsp;&nbsp;&nbsp;Architected a massive digital government platform with **150+ database tables**, **327 APIs**, and 12 integrated service modules  
-&nbsp;&nbsp;&nbsp;&nbsp;🏆 **Champion among 150 teams** at DBMS Project Show
-
-🔴 **ROS 2 Mars Rover Controller** &nbsp; `ROS 2 (Jazzy)` `Python` `C++` `JavaScript`  
-&nbsp;&nbsp;&nbsp;&nbsp;Built a ROS 2-based control system for a Mars rover supporting **autonomous navigation** and manual control  
-&nbsp;&nbsp;&nbsp;&nbsp;Seamless mode transitions, 5-DOF robotic arm integration  
-
-🚨 **Vita / Dako Emergency Dispatch System** &nbsp; `Socket Programming` `Real-time Systems`  
-&nbsp;&nbsp;&nbsp;&nbsp;Developed a real-time emergency platform connecting users with police, ambulance, fire, and transport services  
-&nbsp;&nbsp;&nbsp;&nbsp;Features **nearest-unit dispatch** and live GPS tracking  
-
-🤖 **AI Smart Traffic Camera & Chess Automaton** &nbsp; `Python` `OpenCV` `Deep Learning` `C++` `Microcontroller`  
-&nbsp;&nbsp;&nbsp;&nbsp;Built CV/ML models for intelligent traffic monitoring and vehicle detection  
-&nbsp;&nbsp;&nbsp;&nbsp;Developed an autonomous chessboard with robotic piece movement and AI gameplay  
-
----
-
 ## <span style="color: #FF6600;">🏆 `ACHIEVEMENTS & EXPERIENCE`</span>
 
 🌍 **Mars Rover Challenge**
