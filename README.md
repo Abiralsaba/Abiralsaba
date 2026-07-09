@@ -74,8 +74,11 @@
 
    IDP English Olympiad Champion (2019)
 
-   District Math Olympiad Champion
+   National Math Olympiad Winner (2022)
 
+   Regional Physics Olympiad Runner Up (2020)
+
+   
 🎨 Professional Experience
 
    Front-End Designer — Old Le Reve  
