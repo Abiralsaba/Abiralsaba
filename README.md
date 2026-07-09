@@ -167,11 +167,11 @@
 <div align="center">
   <br>
   <a href="https://abiralsaba.github.io/Abiralsaba/">
-    <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-FF6600?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2000&pause=500&color=FF6600&center=true&vCenter=true&repeat=true&width=435&height=40&lines=%E2%9C%A8+Check+Out+My+Work+%E2%9C%A8;%F0%9F%9A%80+Explore+My+Portfolio+%F0%9F%9A%80;%F0%9F%92%BB+Click+Below+%E2%86%93+%F0%9F%92%BB&v=3" alt="Click Here"/>
   </a>
-  <br>
+  <br><br>
   <a href="https://abiralsaba.github.io/Abiralsaba/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2000&pause=500&color=FF6600&center=true&vCenter=true&repeat=true&width=300&height=30&lines=%F0%9F%91%86+Click+Here!;%F0%9F%9A%80+View+My+Portfolio;%F0%9F%92%BB+See+All+Projects" alt="Click Here"/>
+    <img src="https://img.shields.io/badge/🌐_VIEW_ALL_PROJECTS_→-FF6600?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio" />
   </a>
 </div>
 <div align="center">
