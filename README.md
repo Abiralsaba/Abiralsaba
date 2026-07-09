@@ -140,24 +140,24 @@
 
 <table width="100%">
   <tr><td align="center"><br>
-    <a href="#"><img src="https://img.shields.io/badge/🏆_CHAMPION-DBMS_PROJECT_SHOW_(1st_among_150_teams)-FF6600?style=for-the-badge&labelColor=1a1a2e"/></a>
-    <br><b>Best Database Management System — NATIONX</b><br><br>
+    <img src="https://img.shields.io/badge/🏆_CHAMPION-DBMS_PROJECT_SHOW_(1st_among_150_teams)-FF6600?style=flat-square&labelColor=1a1a2e"/>
+    <br><sub>Best Database Management System — NATIONX</sub><br><br>
   </td></tr>
   <tr><td align="center"><br>
-    <a href="#"><img src="https://img.shields.io/badge/🏆_CHAMPION-NATIONAL_ROBOTICS_&_SDG_COMPETITION-FF6600?style=for-the-badge&labelColor=1a1a2e"/></a>
-    <br><b>GRIC · Innovation & SDG Impact</b><br><br>
+    <img src="https://img.shields.io/badge/🏆_CHAMPION-NATIONAL_ROBOTICS_&_SDG_COMPETITION-FF6600?style=flat-square&labelColor=1a1a2e"/>
+    <br><sub>GRIC · Innovation & SDG Impact</sub><br><br>
   </td></tr>
   <tr><td align="center"><br>
-    <a href="#"><img src="https://img.shields.io/badge/🏆_WINNER-NATIONAL_MATH_OLYMPIAD-FF6600?style=for-the-badge&labelColor=1a1a2e"/></a>
-    <br><b>Regional Champion · 2022</b><br><br>
+    <img src="https://img.shields.io/badge/🏆_WINNER-NATIONAL_MATH_OLYMPIAD-FF6600?style=flat-square&labelColor=1a1a2e"/>
+    <br><sub>Regional Champion · 2022</sub><br><br>
   </td></tr>
   <tr><td align="center"><br>
-    <a href="#"><img src="https://img.shields.io/badge/🏆_CHAMPION-REGIONAL_SCIENCE_OLYMPIAD-FF6600?style=for-the-badge&labelColor=1a1a2e"/></a>
-    <br><b>Regional Champion · 2020</b><br><br>
+    <img src="https://img.shields.io/badge/🏆_CHAMPION-REGIONAL_SCIENCE_OLYMPIAD-FF6600?style=flat-square&labelColor=1a1a2e"/>
+    <br><sub>Regional Champion · 2020</sub><br><br>
   </td></tr>
   <tr><td align="center"><br>
-    <a href="#"><img src="https://img.shields.io/badge/🥈_RUNNER_UP-REGIONAL_PHYSICS_OLYMPIAD-C0C0C0?style=for-the-badge&labelColor=1a1a2e"/></a>
-    <br><b>Regional · 2020</b><br><br>
+    <img src="https://img.shields.io/badge/🥈_RUNNER_UP-REGIONAL_PHYSICS_OLYMPIAD-C0C0C0?style=flat-square&labelColor=1a1a2e"/>
+    <br><sub>Regional · 2020</sub><br><br>
   </td></tr>
 </table>
 
