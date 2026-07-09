@@ -138,7 +138,7 @@
 
 <br><br>
 
-<table width="100%">
+<table>
   <tr><td align="center"><br>
     <img src="https://img.shields.io/badge/🏆_CHAMPION-DBMS_PROJECT_SHOW_(1st_among_150_teams)-FF6600?style=flat-square&labelColor=1a1a2e"/>
     <br><sub>Best Database Management System — NATIONX</sub><br><br>
