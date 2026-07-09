@@ -166,20 +166,13 @@
 ## <span style="color: #FF6600;">🏆 `Projects and Portfolio`</span>
 <div align="center">
   <br>
-  <table border="0">
-    <tr>
-      <td align="right">
-        <a href="https://abiralsaba.github.io/Abiralsaba/">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=500&color=FF6600&center=true&vCenter=true&repeat=true&width=280&height=35&lines=%E2%9C%A8+Check+Out+My+Work;%F0%9F%9A%80+Explore+Portfolio;%F0%9F%92%BB+Click+The+Button+%E2%86%92" alt="Click Here"/>
-        </a>
-      </td>
-      <td align="left">
-        <a href="https://abiralsaba.github.io/Abiralsaba/">
-          <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-FF6600?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio" />
-        </a>
-      </td>
-    </tr>
-  </table>
+  <a href="https://abiralsaba.github.io/Abiralsaba/">
+    <img src="https://img.shields.io/badge/VIEW_ALL_PROJECTS-FF6600?style=for-the-badge&logo=google-chrome&logoColor=white" alt="View Portfolio" />
+  </a>
+  <br>
+  <a href="https://abiralsaba.github.io/Abiralsaba/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2000&pause=500&color=FF6600&center=true&vCenter=true&repeat=true&width=300&height=30&lines=%F0%9F%91%86+Click+Here!;%F0%9F%9A%80+View+My+Portfolio;%F0%9F%92%BB+See+All+Projects" alt="Click Here"/>
+  </a>
 </div>
 <div align="center">
 
