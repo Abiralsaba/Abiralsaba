@@ -103,6 +103,10 @@
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/🌍_GLOBAL_ACHIEVEMENTS-FF6600?style=for-the-badge&labelColor=1a1a2e" alt="Global Achievements"/>
+
+<br><br>
+
 <table>
   <tr>
     <td align="center" width="50%">
